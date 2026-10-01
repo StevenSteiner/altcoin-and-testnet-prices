@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://stevensteiner.github.io/buy-testnet-coins/sitemap.xml

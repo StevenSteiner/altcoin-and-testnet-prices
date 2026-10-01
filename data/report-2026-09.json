@@ -1,0 +1,169 @@
+{
+ "month": "2026-09",
+ "label": "September 2026",
+ "note": "Counted from AltQuick's public trades and 1-minute kline APIs, every market including testnet3, testnet4 and signet.",
+ "rows": [
+  {
+   "market": "BTC_CLAM",
+   "base": "CLAM",
+   "trades_30d": 313,
+   "btc_vol_30d": 0.05622648457234879
+  },
+  {
+   "market": "BTC_DOGE",
+   "base": "DOGE",
+   "trades_30d": 208,
+   "btc_vol_30d": 0.007485539700370898
+  },
+  {
+   "market": "BTC_LTC",
+   "base": "LTC",
+   "trades_30d": 132,
+   "btc_vol_30d": 0.026468201640107353
+  },
+  {
+   "market": "BTC_DGB",
+   "base": "DGB",
+   "trades_30d": 65,
+   "btc_vol_30d": 0.0111442717404028
+  },
+  {
+   "market": "BTC_MAZA",
+   "base": "MAZA",
+   "trades_30d": 4,
+   "btc_vol_30d": 0.0021970905056642996
+  },
+  {
+   "market": "BTC_XMR",
+   "base": "XMR",
+   "trades_30d": 95,
+   "btc_vol_30d": 0.0530419137163795
+  },
+  {
+   "market": "BTC_DASH",
+   "base": "DASH",
+   "trades_30d": 165,
+   "btc_vol_30d": 0.11281133970940105
+  },
+  {
+   "market": "BTC_NMC",
+   "base": "NMC",
+   "trades_30d": 4,
+   "btc_vol_30d": 0.00023078459999279998
+  },
+  {
+   "market": "BTC_BCH",
+   "base": "BCH",
+   "trades_30d": 7,
+   "btc_vol_30d": 8.65615726845e-05
+  },
+  {
+   "market": "BTC_FLO",
+   "base": "FLO",
+   "trades_30d": 6,
+   "btc_vol_30d": 0.0001834119895852
+  },
+  {
+   "market": "BTC_GAP",
+   "base": "GAP",
+   "trades_30d": 8,
+   "btc_vol_30d": 1.35412520668e-05
+  },
+  {
+   "market": "BTC_QTUM",
+   "base": "QTUM",
+   "trades_30d": 1,
+   "btc_vol_30d": 5.37333462e-06
+  },
+  {
+   "market": "BTC_PART",
+   "base": "PART",
+   "trades_30d": 31,
+   "btc_vol_30d": 0.0192449317552246
+  },
+  {
+   "market": "BTC_ZEC",
+   "base": "ZEC",
+   "trades_30d": 21,
+   "btc_vol_30d": 0.0060344342274834
+  },
+  {
+   "market": "BTC_42",
+   "base": "42",
+   "trades_30d": 9,
+   "btc_vol_30d": 0.0020005228865809
+  },
+  {
+   "market": "BTC_WOW",
+   "base": "WOW",
+   "trades_30d": 7,
+   "btc_vol_30d": 0.0001691190841796
+  },
+  {
+   "market": "BTC_RHOM",
+   "base": "RHOM",
+   "trades_30d": 7,
+   "btc_vol_30d": 0.0003255042
+  },
+  {
+   "market": "BTC_FBTC",
+   "base": "FBTC",
+   "trades_30d": 0,
+   "btc_vol_30d": 0
+  },
+  {
+   "market": "BTC_AVAX",
+   "base": "AVAX",
+   "trades_30d": 19,
+   "btc_vol_30d": 0.00028582244949850003
+  },
+  {
+   "market": "BTC_FREE",
+   "base": "FREE",
+   "trades_30d": 0,
+   "btc_vol_30d": 0
+  },
+  {
+   "market": "BTC_CURE",
+   "base": "CURE",
+   "trades_30d": 45,
+   "btc_vol_30d": 0.0003456239668846
+  },
+  {
+   "market": "BTC_TBTC",
+   "base": "TBTC",
+   "trades_30d": 57,
+   "btc_vol_30d": 0.0005345092228724
+  },
+  {
+   "market": "BTC_PPC",
+   "base": "PPC",
+   "trades_30d": 26,
+   "btc_vol_30d": 0.036189804706438
+  },
+  {
+   "market": "BTC_TBTC4",
+   "base": "TBTC4",
+   "trades_30d": 47,
+   "btc_vol_30d": 0.0046211697000012
+  },
+  {
+   "market": "BTC_SOL",
+   "base": "SOL",
+   "trades_30d": 16,
+   "btc_vol_30d": 0.0009808420327486
+  },
+  {
+   "market": "BTC_SBTC",
+   "base": "SBTC",
+   "trades_30d": 351,
+   "btc_vol_30d": 0.0014359841050233244
+  },
+  {
+   "market": "BTC_BTC2B",
+   "base": "BTC2B",
+   "trades_30d": 11,
+   "btc_vol_30d": 0.00013215011569000002
+  }
+ ]
+}

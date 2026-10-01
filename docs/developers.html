@@ -1,0 +1,30 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Buy signet and testnet coins with an API | AltQuick developer guide</title><meta name="description" content="How developers can get Bitcoin signet, testnet4 and testnet3 coins from AltQuick and read market data from its public API."><link rel="canonical" href="https://stevensteiner.github.io/buy-testnet-coins/developers.html">
+<link rel="stylesheet" href="style.css"></head><body>
+<header><a href="index.html"><img src="altquick-wordmark-364x64.png" alt="AltQuick" height="32"></a>
+<nav><a href="index.html">Markets</a><a href="testnet-markets.html">Why testnet markets</a><a href="developers.html">Developers</a><a href="reports/index.html">Reports</a><a href="press.html">Press kit</a></nav></header>
+<main><h1>Developer guide</h1>
+<p class="lead">Get test coins in bulk and read live market data without any API key.</p>
+<h2>Getting test coins</h2>
+<ol><li>Create a free account on <a href="https://altquick.com/">altquick.com</a> and deposit a little Bitcoin.</li><li>Buy on the <a href="markets/bitcoin-signet/index.html">signet</a>, <a href="markets/bitcoin-testnet4/index.html">testnet4</a> or <a href="markets/bitcoin-testnet3/index.html">testnet3</a> market.</li><li>Withdraw to any testnet wallet. Withdrawals are instant, with no faucet drip limits.</li></ol>
+<p>For market orders without an account, see the <a href="https://github.com/AltQuick-com/api/blob/master/swap-api.md">AltQuick Swap API</a>.</p>
+<h2>Public market data</h2>
+<pre># every market and its trading rules
+curl "https://altquick.com/api/v1/exchangeInfo"
+
+# 24-hour stats for all markets
+curl "https://altquick.com/api/v1/ticker/24hr"
+
+# signet order book and recent trades
+curl "https://altquick.com/api/v1/depth?market=BTC_SBTC&amp;limit=20"
+curl "https://altquick.com/api/v1/trades?market=BTC_SBTC&amp;limit=50"</pre>
+<h2>Python</h2>
+<pre>import json, urllib.request
+url = "https://altquick.com/api/v1/ticker/24hr"
+for t in json.load(urllib.request.urlopen(url)):
+    if t["market"] in ("BTC_SBTC", "BTC_TBTC4", "BTC_TBTC"):
+        print(t["market"], t["lastPrice"], t["count"])</pre>
+<p>Full reference, including signed trading endpoints: <a href="https://github.com/AltQuick-com/api">github.com/AltQuick-com/api</a>.</p>
+</main>
+<footer>AltQuick, US-based since 2015. <a href="https://altquick.com/">altquick.com</a> · <a href="https://github.com/AltQuick-com/api">API docs</a> · hello@altquick.com</footer></body></html>
