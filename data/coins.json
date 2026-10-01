@@ -1,0 +1,676 @@
+{
+ "42": {
+  "summary": "42-coin is a Scrypt proof-of-work and proof-of-stake coin with a hard cap of just 42 coins.",
+  "description": "42-coin (42) price in BTC with live order book, 90-day chart and recent trades, plus how the 42-coin supply cap, 2016 relaunch and PoW/PoS hybrid work.",
+  "launched": "Announced on Bitcointalk in early January 2014 (original genesis block dated 7 January 2014); relaunched on a new chain on 12 November 2016.",
+  "consensus": "Hybrid Scrypt proof of work and proof of stake. All 42 coins are mined, so block rewards are zero and blocks pay only transaction fees.",
+  "about": [
+   "42-coin (ticker 42) takes Bitcoin's fixed-supply idea to an extreme: there will only ever be 42 coins. It was announced on the Bitcointalk forum in early January 2014, and the original chain's genesis block is dated 7 January 2014. That first version used Scrypt proof of work with 42-second blocks, but a code change in March 2014 quietly removed the 42-coin cap.",
+   "In 2016 the community revived the project. Holders swapped their coins onto a new chain, built on Novacoin code, that launched on 12 November 2016. The new chain brought back the 42-coin limit and added proof of stake alongside Scrypt mining. Target spacing is 21 minutes for proof-of-work blocks and 7 minutes for proof-of-stake blocks.",
+   "Every coin has now been mined, so miners and stakers earn only transaction fees. The project calls the design deflationary at the protocol level and says there was no premine, ICO or team allocation, with coins distributed by mining in 2014-2016. The number 42 shows up everywhere: the P2P port is 4242, the minimum stake age is 42 hours and blocks need 42 confirmations. The wallet also has a built-in tool for encrypting text.",
+   "With so few coins in existence, the 42/BTC order book is thin. Check the bids and asks below before placing a market order."
+  ],
+  "links": [
+   [
+    "Website",
+    "https://42-coin.org/"
+   ],
+   [
+    "Explorer",
+    "https://explorer.42-coin.org/"
+   ],
+   [
+    "Explorer (CryptoID)",
+    "https://chainz.cryptoid.info/42/"
+   ],
+   [
+    "Source code",
+    "https://github.com/42-coin/42"
+   ]
+  ],
+  "related": [
+   "PPC",
+   "CLAM",
+   "CURE"
+  ]
+ },
+ "AVAX": {
+  "summary": "Avalanche is a proof-of-stake smart-contract platform whose mainnet launched in September 2020.",
+  "description": "Avalanche (AVAX) price in Bitcoin with a 90-day AVAX/BTC chart, live order book and recent trades, and a plain guide to the X, P and C-Chains.",
+  "launched": "Mainnet launched on 21 September 2020.",
+  "consensus": "Proof of stake with the Avalanche family of consensus protocols (Snowman on the Primary Network chains), based on repeated random sampling of validators.",
+  "about": [
+   "Avalanche is a smart-contract network built by Ava Labs. Its mainnet went live on 21 September 2020. AVAX is the native coin: it pays transaction fees and is staked by validators. Running a Primary Network validator requires staking at least 2,000 AVAX.",
+   "What sets Avalanche apart is its consensus. Rather than mining, or having every validator talk to every other validator, each node repeatedly asks a small random sample of other validators what they prefer and switches when a large enough majority disagrees. After enough rounds the network settles on one answer. The design aims for finality in about a second.",
+   "The Primary Network is split into three chains. The C-Chain runs the Ethereum Virtual Machine, so Solidity contracts, MetaMask and other Ethereum tools work there; this is where most tokens and apps live. The P-Chain coordinates validators and tracks Avalanche L1s (formerly called subnets), separate chains that can set their own rules. The X-Chain is for creating and transferring assets.",
+   "Because AVAX exists on more than one chain, check which network AltQuick's deposit page expects before you send coins."
+  ],
+  "links": [
+   [
+    "Website",
+    "https://www.avax.network/"
+   ],
+   [
+    "Explorer",
+    "https://explorer.avax.network/c-chain"
+   ],
+   [
+    "Source code",
+    "https://github.com/ava-labs/avalanchego"
+   ]
+  ],
+  "related": [
+   "SOL",
+   "QTUM",
+   "PART"
+  ]
+ },
+ "BCH": {
+  "summary": "Bitcoin Cash is the larger-block fork of Bitcoin created on 1 August 2017.",
+  "description": "Bitcoin Cash (BCH) price in BTC: live BCH/BTC order book, recent trades, a 90-day chart and a short history of the 2017 block-size fork.",
+  "launched": "Split from Bitcoin on 1 August 2017.",
+  "consensus": "SHA-256 proof of work, the same mining algorithm as Bitcoin.",
+  "about": [
+   "Bitcoin Cash split from Bitcoin on 1 August 2017, at the end of a long argument over how Bitcoin should scale. One side wanted to keep blocks small and add capacity through SegWit and second layers such as Lightning; the other wanted to raise the block size limit so more payments fit on chain. Bitcoin Cash is the result of the second camp forking away. Anyone holding BTC at the split received the same amount of BCH.",
+   "BCH keeps Bitcoin's SHA-256 proof of work, ten-minute block target and 21 million coin limit. The block size limit was raised to 8 MB at the fork and later to 32 MB. Later upgrades changed the difficulty adjustment so blocks stay regular even though BCH shares SHA-256 miners with the much larger Bitcoin network, and the 2023 upgrade added CashTokens, native tokens on the BCH chain.",
+   "The trade-off is the same one argued in 2017: bigger blocks allow cheaper on-chain payments, while critics say they make running a full node more expensive over time. BCH itself split again in November 2018, when Bitcoin SV left over a further disagreement.",
+   "BCH uses its own address format (CashAddr, starting with bitcoincash:), so make sure you withdraw to a BCH wallet, not a BTC one."
+  ],
+  "links": [
+   [
+    "Website",
+    "https://bitcoincash.org/"
+   ],
+   [
+    "Explorer (3xpl)",
+    "https://3xpl.com/bitcoin-cash"
+   ],
+   [
+    "Full node (BCHN)",
+    "https://gitlab.com/bitcoin-cash-node/bitcoin-cash-node"
+   ]
+  ],
+  "related": [
+   "LTC",
+   "BTC2B",
+   "DOGE"
+  ]
+ },
+ "BTC2B": {
+  "summary": "Bitcoin Blake2b is a 2026 hard fork of Bitcoin that switched proof of work from SHA-256d to BLAKE2b at block 961,640.",
+  "description": "Bitcoin Blake2b (BTC2B) price in Bitcoin: live BTC2B/BTC order book and trades, plus what the August 2026 BIP-110 hard fork changed and how to split coins safely.",
+  "launched": "The first BLAKE2b block, height 961,640, was mined on 30 August 2026. The chain shares Bitcoin's history before the split.",
+  "consensus": "BLAKE2b proof of work from block 961,640 onward (SHA-256d before that), with Bitcoin's ten-minute block target and halving schedule.",
+  "about": [
+   "Bitcoin Blake2b is a hard fork of Bitcoin. It shares Bitcoin's full transaction history up to the split and then changed its proof of work from SHA-256d to BLAKE2b. The first BLAKE2b block is height 961,640, mined on 30 August 2026.",
+   "The fork grew out of BIP-110, a soft-fork proposal to stop Bitcoin blocks being used for arbitrary data storage while leaving ordinary payments alone. According to the project, nodes enforcing BIP-110 stopped accepting non-compliant blocks on 8 August 2026, but most SHA-256d hash power kept extending the original chain, so the rules never took effect there. Supporters then moved to a different mining algorithm so that existing SHA-256 miners cannot add blocks to their chain.",
+   "From block 961,640, temporary limits on data storage apply, including a cap of roughly 300 kB per block, until 1 September 2027, when node operators decide whether to keep them. The BLAKE2b proof of work is permanent. The chain keeps Bitcoin's ten-minute block target, 210,000-block halving interval and 21 million nominal supply, and uses a larger 164-byte block header. Some exchanges list the same coin as BTCB2 or BIP110.",
+   "Anyone who held bitcoin before the split holds the same amount on this chain. AltQuick's asset page notes that BTC2B deposits use the same Bitcoin bech32 address format, and that a send which hasn't been split can be credited as both BTC and BTC2B. Split your coins carefully before depositing."
+  ],
+  "links": [
+   [
+    "Website",
+    "https://bitcoin-blake2b.org/"
+   ]
+  ],
+  "related": [
+   "BCH",
+   "NMC",
+   "LTC"
+  ]
+ },
+ "CLAM": {
+  "summary": "Clams (CLAM) is a proof-of-stake coin that was airdropped in 2014 to every Bitcoin, Litecoin and Dogecoin address holding a balance.",
+  "description": "Clamcoin (CLAM) price in BTC with a 90-day chart, live order book and trades, plus how the 2014 BTC/LTC/DOGE airdrop works and how to dig up unclaimed CLAM.",
+  "launched": "May 2014, with coins distributed from a May 2014 snapshot of the Bitcoin, Litecoin and Dogecoin blockchains.",
+  "consensus": "Proof of stake only, with no mining phase. Blocks come about once a minute and each pays 1 CLAM to the staker.",
+  "about": [
+   "Clams, usually called Clamcoin, solved the hardest problem for a pure proof-of-stake coin (how to hand out the first coins) in an unusual way. Instead of mining, it sent coins to everyone. In May 2014 it took a snapshot of the Bitcoin, Litecoin and Dogecoin blockchains (BTC block 300,377, LTC block 565,693 and DOGE block 218,556), and every address with a balance above dust was credited 4.60545574 CLAM. A total of 14,897,662 CLAM was allocated this way. The project calls it Proof of Chain.",
+   "Those coins are still claimable. If you held BTC, LTC or DOGE in May 2014, you can import the old private keys into the CLAM wallet and dig up the CLAM sitting on those addresses. Move the original coins to a fresh wallet before exposing old keys to any new software.",
+   "The network has no proof-of-work phase. Unlocked wallets stake in the background, a block is produced roughly every minute, and each block pays 1 CLAM, about 525,960 new CLAM a year. That issuance is meant to replace coins that are lost or never claimed. Technically CLAM began as a fork of Blackcoin, which itself came from Peercoin's proof-of-stake design.",
+   "CLAM became the house currency of the dice site Just-Dice in late 2014."
+  ],
+  "links": [
+   [
+    "Website",
+    "https://clamcoin.org/"
+   ],
+   [
+    "Explorer (CryptoID)",
+    "https://chainz.cryptoid.info/clam/"
+   ],
+   [
+    "Source code",
+    "https://github.com/nochowderforyou/clams"
+   ]
+  ],
+  "related": [
+   "PPC",
+   "DOGE",
+   "42"
+  ]
+ },
+ "CURE": {
+  "summary": "Curecoin rewards people who run Folding@home disease-research simulations and secures its chain with proof of stake.",
+  "description": "Curecoin (CURE) price in Bitcoin: CURE/BTC order book, recent trades and 90-day chart, plus how Curecoin pays Folding@home protein folders.",
+  "launched": "Launched publicly in May 2014.",
+  "consensus": "Proof of stake since the Curecoin 2.0 hard fork in December 2018 (4-minute blocks, 4-day minimum stake age). It originally combined SHA-256 proof of work with Peercoin-style staking.",
+  "about": [
+   "Curecoin tries to make crypto issuance pay for something useful. Instead of rewarding miners for raw hashing, it pays people who run Folding@home, the distributed computing project that began at Stanford and simulates protein folding for research into diseases such as cancer and Alzheimer's. Folders join Team Curecoin and receive CURE in proportion to their share of the team's work.",
+   "Developers Joshua Smith and Maxwell Sanchez launched Curecoin publicly in May 2014. According to the project, Team Curecoin reached fifth place in Folding@home's all-time standings within about five months, and took the top spot for total contributions by mid-2017.",
+   "At launch, Curecoin combined SHA-256 proof of work with Peercoin-style proof of stake. The Curecoin 2.0 hard fork, completed in December 2018, removed ASIC mining entirely. Since then the chain is secured by proof of stake with 4-minute blocks and a 4-day minimum stake age, while more than 90% of new coins go to protein folders. The science work happens off chain on Folding@home's servers, which validate the work units, so the blockchain doesn't grow with the research data.",
+   "To earn CURE rather than buy it, install Folding@home and fold for Team Curecoin; the project's site has a step-by-step guide."
+  ],
+  "links": [
+   [
+    "Website",
+    "https://curecoin.net/"
+   ],
+   [
+    "Explorer (CryptoID)",
+    "https://chainz.cryptoid.info/cure/"
+   ],
+   [
+    "Source code",
+    "https://github.com/cygnusxi/CurecoinSource"
+   ]
+  ],
+  "related": [
+   "GAP",
+   "PPC",
+   "CLAM"
+  ]
+ },
+ "DASH": {
+  "summary": "Dash is a payments-focused cryptocurrency with a masternode network that provides InstantSend, ChainLocks and optional CoinJoin mixing.",
+  "description": "Dash (DASH) price in BTC with live DASH/BTC order book, trades and a 90-day chart, plus a plain explanation of masternodes, InstantSend and the treasury.",
+  "launched": "18 January 2014, first as XCoin, soon renamed Darkcoin, and renamed Dash in March 2015.",
+  "consensus": "X11 proof of work for blocks (about every 2.5 minutes), plus a second tier of collateralized masternodes.",
+  "about": [
+   "Dash was launched on 18 January 2014 by Evan Duffield under the name XCoin. It was soon renamed Darkcoin, and in March 2015 it became Dash, short for digital cash. Miners use X11, a proof-of-work algorithm that chains eleven different hash functions, and a block is found about every two and a half minutes.",
+   "Dash's defining feature is its second tier of masternodes: servers that each lock up 1,000 DASH as collateral. Masternodes provide services ordinary miners don't. InstantSend locks a transaction within seconds so it can't be double-spent, ChainLocks has masternode quorums sign each block to protect against chain reorganizations, and CoinJoin (formerly PrivateSend) offers optional mixing for more privacy.",
+   "Block rewards are split between miners, masternodes and a treasury. Anyone can submit a proposal for treasury funding, and masternode owners vote on which ones get paid. That treasury has funded Dash's development for years without a company holding a premine.",
+   "Dash has been delisted by some exchanges because of its optional mixing. AltQuick keeps a DASH/BTC market; the live numbers below show how active it is right now."
+  ],
+  "links": [
+   [
+    "Website",
+    "https://www.dash.org/"
+   ],
+   [
+    "Explorer (Insight)",
+    "https://insight.dash.org/insight/"
+   ],
+   [
+    "Explorer (CryptoID)",
+    "https://chainz.cryptoid.info/dash/"
+   ],
+   [
+    "Source code",
+    "https://github.com/dashpay/dash"
+   ]
+  ],
+  "related": [
+   "XMR",
+   "ZEC",
+   "LTC"
+  ]
+ },
+ "DGB": {
+  "summary": "DigiByte is a 2014 UTXO blockchain with 15-second blocks and five mining algorithms running side by side.",
+  "description": "DigiByte (DGB) price in Bitcoin: DGB/BTC live order book, trades and 90-day chart, plus how DigiByte's five-algorithm mining and DigiShield work.",
+  "launched": "10 January 2014.",
+  "consensus": "Proof of work split across five algorithms (SHA-256, Scrypt, Skein, Qubit and Odocrypt), each targeting about a fifth of blocks.",
+  "about": [
+   "DigiByte was launched by Jared Tate on 10 January 2014. It's a UTXO chain in the Bitcoin family, tuned for speed: the block target is 15 seconds, forty times faster than Bitcoin. The maximum supply is 21 billion DGB.",
+   "Its most distinctive design choice is multi-algorithm mining. Five proof-of-work algorithms run at once (SHA-256, Scrypt, Skein, Qubit and Odocrypt), and each has its own difficulty and aims for about 20% of blocks. To take over the chain, an attacker would need a majority across several kinds of mining hardware, not just one. Odocrypt replaced Groestl in 2019 and changes itself every ten days, which makes it hard to build dedicated ASICs for.",
+   "DigiByte also created DigiShield, a difficulty adjustment that reacts quickly when hash power arrives or leaves. Other coins, Dogecoin among them, later adopted it. On top of the base chain the project offers DigiAssets for issuing tokens and Digi-ID for password-free logins.",
+   "DigiByte addresses are not interchangeable with Bitcoin addresses; withdraw only to a DGB wallet."
+  ],
+  "links": [
+   [
+    "Website",
+    "https://digibyte.org/"
+   ],
+   [
+    "Explorer",
+    "https://digiexplorer.info/"
+   ],
+   [
+    "Explorer (CryptoID)",
+    "https://chainz.cryptoid.info/dgb/"
+   ],
+   [
+    "Source code",
+    "https://github.com/digibyte/digibyte"
+   ]
+  ],
+  "related": [
+   "LTC",
+   "DOGE",
+   "MAZA"
+  ]
+ },
+ "DOGE": {
+  "summary": "Dogecoin is the Shiba Inu meme coin launched in December 2013, a Scrypt chain merge-mined with Litecoin.",
+  "description": "Dogecoin (DOGE) price in BTC: live DOGE/BTC order book, recent trades and 90-day chart, plus Dogecoin's history, supply and merged mining with Litecoin.",
+  "launched": "6 December 2013.",
+  "consensus": "Scrypt proof of work with one-minute blocks, merge-mined with Litecoin (AuxPoW) since 2014.",
+  "about": [
+   "Dogecoin was created by Billy Markus and Jackson Palmer and launched on 6 December 2013. It began as a joke about the flood of new altcoins, using the Shiba Inu 'doge' meme as its mascot, and found a large, friendly community almost immediately. Tipping strangers small amounts of DOGE online was the coin's first real use.",
+   "Technically Dogecoin sits in the Litecoin family. It uses Scrypt proof of work with a one-minute block target. Since 2014 it has been merge-mined with Litecoin, so Litecoin miners can secure both chains at once with the same work, which gave Dogecoin far more hash power than it could attract alone. It also adopted DigiByte's DigiShield difficulty adjustment.",
+   "Unlike Bitcoin, Dogecoin has no supply cap. After an early period of random block rewards, the reward was fixed at 10,000 DOGE per block, about 5 billion new coins a year. That fixed issuance shrinks as a percentage of supply over time.",
+   "Dogecoin addresses usually start with D; withdraw only to a DOGE wallet."
+  ],
+  "links": [
+   [
+    "Website",
+    "https://dogecoin.com/"
+   ],
+   [
+    "Explorer",
+    "https://dogechain.info/"
+   ],
+   [
+    "Source code",
+    "https://github.com/dogecoin/dogecoin"
+   ]
+  ],
+  "related": [
+   "LTC",
+   "CLAM",
+   "WOW"
+  ]
+ },
+ "FLO": {
+  "summary": "FLO, originally Florincoin, is a 2013 Scrypt coin that lets every transaction carry a text field, used to store metadata on chain.",
+  "description": "Florincoin (FLO) price in Bitcoin with live FLO/BTC order book, trades and 90-day chart, plus how floData transaction comments made FLO a metadata blockchain.",
+  "launched": "17 June 2013, with no premine.",
+  "consensus": "Scrypt proof of work with 40-second blocks.",
+  "about": [
+   "FLO launched as Florincoin on 17 June 2013, released with no premine by a developer known as skyangel. It's a Scrypt proof-of-work coin with a 40-second block target and a total supply of 160 million coins.",
+   "Its contribution was a text field on every transaction. Florincoin was the first coin to build a transaction comment into the protocol and wallet, now called floData. The field started at 140 characters, a hard fork in late 2013 raised it to 528 bytes, and it now holds 1,040 bytes. Bitcoin's OP_RETURN outputs carry far less data and are pruned by many nodes, while floData stays part of the permanent transaction history.",
+   "That made FLO a base layer for applications that need to record small pieces of data permanently. The Alexandria project and its Open Index Protocol (OIP) used FLO to publish indexes and metadata for content stored elsewhere, so a record can be found and verified later without trusting a single server.",
+   "A note on links: the flo.cash domain that used to host the project site now shows a for-sale page, so this page links only to the source code."
+  ],
+  "links": [
+   [
+    "Source code",
+    "https://github.com/floblockchain/flo"
+   ]
+  ],
+  "related": [
+   "NMC",
+   "MAZA",
+   "LTC"
+  ]
+ },
+ "GAP": {
+  "summary": "Gapcoin is a prime-number coin whose proof of work searches for record-sized gaps between consecutive primes.",
+  "description": "Gapcoin (GAP) price in BTC: GAP/BTC order book, trades and 90-day chart, plus how Gapcoin's prime-gap proof of work and merit-based difficulty work.",
+  "launched": "21 October 2014 at 18:00 UTC, with no premine.",
+  "consensus": "Custom proof of work that searches for large prime gaps, with difficulty measured by a gap's merit; 2.5-minute block target.",
+  "about": [
+   "Gapcoin launched on 21 October 2014 at 18:00 UTC with no premine. Like Primecoin and Riecoin, it replaces pointless hashing with a math problem, but a different one: it hunts for prime gaps, long runs of composite numbers between two consecutive primes.",
+   "Difficulty is measured by a gap's merit, the gap length divided by the natural logarithm of the starting prime. That makes gaps near primes of different sizes comparable. To tie the work to a block, miners build candidate primes from the block header hash multiplied by 2^shift plus an adder, and the adder must be smaller than 2^shift so one search can't be reused for another block. Because nobody can predict where large gaps occur, every share is equally valuable, which makes pool payouts simpler than on other prime coins. The search has turned up many first-known-occurrence records on the public prime gap lists.",
+   "The block target is 2.5 minutes and difficulty adjusts every block. The block reward scales with difficulty and halves every 420,000 blocks, so the final supply isn't fixed; the project estimates about 10 to 30 million GAP.",
+   "In 2026 the maintainers released Gapcoin Core 2606, rebuilt on the same base as Riecoin Core. Read their upgrade notes before moving coins. The old gapcoin.org domain now hosts an unrelated gambling site, so don't use it."
+  ],
+  "links": [
+   [
+    "Website (Gapcoin Core)",
+    "https://gapcoin.club/"
+   ],
+   [
+    "Project site",
+    "https://gapcoin-project.github.io/"
+   ],
+   [
+    "Source code",
+    "https://github.com/PrimesClub/Gapcoin"
+   ]
+  ],
+  "related": [
+   "CURE",
+   "42",
+   "FLO"
+  ]
+ },
+ "LTC": {
+  "summary": "Litecoin is one of the oldest Bitcoin forks, launched by Charlie Lee in October 2011 with Scrypt mining and 2.5-minute blocks.",
+  "description": "Litecoin (LTC) price in Bitcoin: live LTC/BTC order book, trades and 90-day chart, plus Litecoin's supply, Scrypt mining, SegWit and MWEB in plain terms.",
+  "launched": "October 2011.",
+  "consensus": "Scrypt proof of work with a 2.5-minute block target; Dogecoin is merge-mined alongside it.",
+  "about": [
+   "Litecoin was released by Charlie Lee, then a Google engineer, in October 2011. He forked Bitcoin's code and changed a few parameters: Scrypt instead of SHA-256 for mining, a 2.5-minute block target instead of ten minutes, and a supply cap of 84 million coins, four times Bitcoin's. Rewards halve every 840,000 blocks, roughly every four years like Bitcoin.",
+   "For much of its history Litecoin has served as a testing ground for changes before they reach Bitcoin. It activated Segregated Witness in May 2017, a few months ahead of Bitcoin, and early Lightning Network payments and cross-chain atomic swaps were demonstrated on it.",
+   "In May 2022 Litecoin activated MWEB (MimbleWimble Extension Blocks), an optional side layer where amounts are hidden. Moving coins into MWEB is opt-in, so regular Litecoin transactions remain transparent.",
+   "Since 2014 Dogecoin has been merge-mined with Litecoin, so the same Scrypt hardware secures both chains."
+  ],
+  "links": [
+   [
+    "Website",
+    "https://litecoin.org/"
+   ],
+   [
+    "Explorer",
+    "https://litecoinspace.org/"
+   ],
+   [
+    "Source code",
+    "https://github.com/litecoin-project/litecoin"
+   ]
+  ],
+  "related": [
+   "DOGE",
+   "BCH",
+   "DGB"
+  ]
+ },
+ "MAZA": {
+  "summary": "Mazacoin is a 2014 SHA-256 coin created by Payu Harris for the Oglala Lakota Nation and other tribal economies.",
+  "description": "Mazacoin (MAZA) price in BTC with live MAZA/BTC order book, trades and 90-day chart, plus the coin's Oglala Lakota origins, MinotaurX CPU mining and Hive mining.",
+  "launched": "Initial release on 7 February 2014.",
+  "consensus": "Proof of work with SHA-256 and, since version 0.16.3 (2022), the CPU-friendly MinotaurX algorithm, plus Hive mining.",
+  "about": [
+   "Mazacoin was created by developer Payu Harris and released on 7 February 2014. It was aimed at the Oglala Lakota Nation on the Pine Ridge Reservation in South Dakota, as a currency that a tribal nation could use under its own sovereignty rather than depending on the US banking system. The project now describes itself more broadly as a coin for Native American and other sovereign communities. Its launch drew national press coverage, including Forbes in 2014 and MIT Technology Review in 2022.",
+   "The code descends from Zetacoin, a Bitcoin derivative, and the chain began with SHA-256 proof of work and one-minute blocks. Version 0.16.3, released in January 2022, added two ways to secure the chain without ASICs. MinotaurX is a CPU-mineable algorithm, and Hive mining lets holders spend MAZA in the wallet to create 'bees' that try to produce blocks after proof-of-work blocks, using almost no energy. SHA-256 mining still works, though ASICBoost is no longer supported.",
+   "People have also used the Mazacoin blockchain as a permanent archive, embedding records with the Apertus tool. The project site lists tribal IDs and Standing Rock testimonies among the things preserved this way.",
+   "MAZA trades lightly, so check the order book depth below before buying."
+  ],
+  "links": [
+   [
+    "Website",
+    "https://mazacoin.org/"
+   ],
+   [
+    "Explorer",
+    "https://mazacha.in/"
+   ],
+   [
+    "Source code",
+    "https://github.com/MazaCoin/maza"
+   ]
+  ],
+  "related": [
+   "DGB",
+   "FLO",
+   "NMC"
+  ]
+ },
+ "NMC": {
+  "summary": "Namecoin, launched in April 2011, was the first fork of Bitcoin; it adds a decentralized name registry used for .bit domains and identities.",
+  "description": "Namecoin (NMC) price in Bitcoin with live NMC/BTC order book, trades and 90-day chart, plus how Namecoin's name registry, .bit domains and merged mining work.",
+  "launched": "April 2011 (announced 18 April 2011), the first fork of Bitcoin.",
+  "consensus": "SHA-256 proof of work, merge-mined with Bitcoin since block 19,200 (October 2011).",
+  "about": [
+   "Namecoin was released in April 2011 by a developer known as Vincent Durham, building on an idea Bitcoin users had called BitDNS. It was the first fork of Bitcoin's code to run its own network, which makes it the oldest altcoin still running.",
+   "On top of a currency (NMC) with Bitcoin's 21 million cap and ten-minute blocks, Namecoin adds a key/value registry. You can register a name, attach up to 520 bytes of data to it and transfer it, and nobody can seize or censor the record. The best-known use is the .bit top-level domain, which sits outside ICANN. Names can also hold identity data such as PGP keys, Tor .onion addresses and TLS certificate information. Namecoin is often cited as the first practical answer to Zooko's triangle: names that are human-readable, secure and decentralized at once.",
+   "Namecoin was also the first chain to use merged mining. Since block 19,200 in October 2011, Bitcoin miners can mine Namecoin with the same work at no extra cost, so Namecoin is secured by a large share of Bitcoin's hash power.",
+   "The project is still active, with recent work on TLS certificate validation for Namecoin names. NMC is needed to register and renew names."
+  ],
+  "links": [
+   [
+    "Website",
+    "https://www.namecoin.org/"
+   ],
+   [
+    "Source code",
+    "https://github.com/namecoin/namecoin-core"
+   ]
+  ],
+  "related": [
+   "FLO",
+   "PPC",
+   "BTC2B"
+  ]
+ },
+ "PART": {
+  "summary": "Particl is a pure proof-of-stake privacy coin on a Bitcoin Core codebase, built to power a decentralized marketplace.",
+  "description": "Particl (PART) price in BTC: live PART/BTC order book, trades and 90-day chart, plus Particl's three privacy levels, cold staking and marketplace.",
+  "launched": "Mainnet genesis block on 17 July 2017.",
+  "consensus": "Particl Proof-of-Stake (pure PoS from the first block, no mining phase) with 120-second blocks and cold staking.",
+  "about": [
+   "Particl's main network launched on 17 July 2017 as a pure proof-of-stake chain. Many proof-of-stake coins start with a mining period; Particl was staked from the first block. It's built on Bitcoin Core's code and kept close to recent Bitcoin releases, with a 120-second block target.",
+   "PART can be sent at three privacy levels. Public transactions work like Bitcoin. Blind transactions use Confidential Transactions to hide the amount. Anon transactions use RingCT, ring signatures and stealth addresses to also hide who sent and received the coins. Bulletproofs keep the private transactions smaller. Stakers can use cold staking, where the coins stay in cold storage or a hardware wallet while a separate online node stakes for them.",
+   "The coin exists to power the Particl Marketplace, a peer-to-peer shopping app with no company in the middle. Buyers and sellers lock funds in a two-party escrow, so neither side gains by walking away. The marketplace alpha shipped in May 2018 on testnet. Particl also develops BasicSwap, a decentralized exchange for atomic swaps between coins such as BTC, XMR and PART.",
+   "Rhombus (RHOM), also listed on AltQuick, is a fork of Particl's code."
+  ],
+  "links": [
+   [
+    "Website",
+    "https://particl.io/"
+   ],
+   [
+    "Explorer",
+    "https://explorer.particl.io/"
+   ],
+   [
+    "Source code",
+    "https://github.com/particl/particl-core"
+   ]
+  ],
+  "related": [
+   "RHOM",
+   "XMR",
+   "QTUM"
+  ]
+ },
+ "PPC": {
+  "summary": "Peercoin, launched in August 2012, was the first cryptocurrency to use proof of stake.",
+  "description": "Peercoin (PPC) price in Bitcoin with live PPC/BTC order book, trades and 90-day chart, plus how the first proof-of-stake coin's coin-age minting works.",
+  "launched": "August 2012 (the network started on 19 August 2012 according to the launch announcement).",
+  "consensus": "Hybrid: coin-age proof of stake secures the chain, and SHA-256 proof of work adds a trickle of new coins.",
+  "about": [
+   "Peercoin was launched in August 2012 by the pseudonymous Sunny King, who later created Primecoin, and Scott Nadal. It was the first cryptocurrency to use proof of stake, and nearly every proof-of-stake coin since, including Blackcoin, Clams and early Curecoin, borrows from its design. It launched with no ICO, premine or developer tax.",
+   "Peercoin's proof of stake is based on coin age: the number of coins you hold multiplied by how long you've held them. Holders run a wallet that mints blocks, and the chance of minting one grows with coin age, but each unspent output gets only one hash attempt per second, so it uses very little energy. Minting a block consumes the coin age and earns a reward.",
+   "Proof of work was used to distribute coins at the start and still adds a trickle of new PPC through SHA-256 mining, the same algorithm as Bitcoin. Long-term security, though, comes from the minters, which ties security to people with a stake in the network. There is no hard supply cap; Peercoin aims for low, continuous inflation instead.",
+   "Note: peercoin.org is a parked domain. The project's site is peercoin.net."
+  ],
+  "links": [
+   [
+    "Website",
+    "https://www.peercoin.net/"
+   ],
+   [
+    "Explorer",
+    "https://explorer.peercoin.net/"
+   ],
+   [
+    "Explorer (CryptoID)",
+    "https://chainz.cryptoid.info/ppc/"
+   ],
+   [
+    "Source code",
+    "https://github.com/peercoin/peercoin"
+   ]
+  ],
+  "related": [
+   "CLAM",
+   "42",
+   "NMC"
+  ]
+ },
+ "QTUM": {
+  "summary": "Qtum is a proof-of-stake chain that combines Bitcoin's UTXO model with the Ethereum Virtual Machine.",
+  "description": "Qtum (QTUM) price in BTC: live QTUM/BTC order book, trades and 90-day chart, plus how Qtum runs Ethereum-style contracts on a Bitcoin-style UTXO chain.",
+  "launched": "Mainnet (\"Ignition\") launched on 13 September 2017.",
+  "consensus": "Proof of stake, with an on-chain governance protocol for adjusting parameters such as block size and gas.",
+  "about": [
+   "Qtum's mainnet, called Ignition, launched on 13 September 2017. The project tries to combine two things: Bitcoin's UTXO transaction model and the Ethereum Virtual Machine. Balances are tracked as Bitcoin-style unspent outputs, while an abstraction layer lets Solidity smart contracts written for Ethereum run on top of them.",
+   "The chain is secured by proof of stake rather than mining; QTUM holders stake to produce blocks, which now come about every 32 seconds. Qtum also has a Decentralized Governance Protocol that lets the network change parameters such as the block size limit and gas schedule through on-chain votes, without a hard fork.",
+   "QTUM pays for contract gas and is staked by block producers. The network keeps pulling in upstream changes from both Bitcoin Core and Ethereum, so it's a different bet from account-based chains such as Ethereum, Avalanche's C-Chain or Solana.",
+   "Qtum addresses look like Bitcoin addresses but are not interchangeable; withdraw only to a QTUM wallet."
+  ],
+  "links": [
+   [
+    "Website",
+    "https://qtum.org/"
+   ],
+   [
+    "Explorer",
+    "https://qtum.info/"
+   ],
+   [
+    "Source code",
+    "https://github.com/qtumproject/qtum"
+   ]
+  ],
+  "related": [
+   "PART",
+   "AVAX",
+   "SOL"
+  ]
+ },
+ "RHOM": {
+  "summary": "Rhombus (RHOM) is a proof-of-stake privacy coin forked from Particl, with public, blind and anonymous transactions.",
+  "description": "Rhombus (RHOM) price in Bitcoin with live RHOM/BTC order book, trades and 90-day chart, plus RHOM's privacy levels, staking and BTC-holder airdrop.",
+  "launched": "Distributed through an airdrop to Bitcoin holders based on a snapshot taken around December 2020 (before BTC block 660,023).",
+  "consensus": "Pure proof of stake with no mining phase, 2.5-minute block target and cold staking.",
+  "about": [
+   "Rhombus is a privacy coin built on a fork of Particl Core, so it inherits a recent Bitcoin Core codebase. The project says it keeps that codebase in step with Bitcoin's updates. The chain is pure proof of stake with no mining phase, a 2.5-minute block target and 2 MB blocks. Each staked block pays about 25 RHOM, which the project puts at roughly 0.5% annual inflation, and cold staking lets coins stay offline while a node stakes for them.",
+   "Like Particl, RHOM can be sent with three privacy levels. Public sends are traceable like Bitcoin. Blind sends use Confidential Transactions to hide amounts. Anonymous sends use RingCT, Bulletproofs and stealth addresses to also hide the participants. You choose per transaction, trading privacy against fee and size. SegWit is on for every transaction, and an off-chain messaging network (SMSG) carries data so the chain stays small.",
+   "The initial coins were airdropped to Bitcoin holders. Addresses holding more than 0.001 BTC before Bitcoin block 660,023, a snapshot announced for 5 December 2020, could claim RHOM at about 500 RHOM per BTC by signing a message, with claims open until 5 December 2021. The project's site now states that about half of the supply has been burned.",
+   "Don't confuse RHOM with 'Rhombus DeFi' (RHO), an unrelated BSC token."
+  ],
+  "links": [
+   [
+    "Website",
+    "https://rhom.com/"
+   ],
+   [
+    "Explorer",
+    "https://explorer.rhom.com/"
+   ],
+   [
+    "Source code",
+    "https://github.com/rhombus-project/rhombus-core"
+   ]
+  ],
+  "related": [
+   "PART",
+   "XMR",
+   "ZEC"
+  ]
+ },
+ "SOL": {
+  "summary": "Solana is a high-throughput proof-of-stake smart-contract chain that orders transactions with Proof of History.",
+  "description": "Solana (SOL) price in BTC: live SOL/BTC order book, recent trades and 90-day chart, plus a plain explanation of Proof of History and Tower BFT.",
+  "launched": "Mainnet Beta launched on 16 March 2020.",
+  "consensus": "Proof of stake with Tower BFT voting, ordered by Proof of History, a verifiable clock built from sequential hashing.",
+  "about": [
+   "Solana was founded by Anatoly Yakovenko, who described its core idea in a 2017 whitepaper, and its Mainnet Beta launched on 16 March 2020. It's built for speed and low fees: one chain without sharding, tuned to process many transactions per second on powerful validator hardware.",
+   "The key idea is Proof of History, a sequence of hashes computed one after another that proves time has passed between events. Because every validator can check the order of events from that sequence, they don't need to message each other just to agree on time. Tower BFT, a proof-of-stake voting protocol, then finalizes blocks on top of that clock. The runtime can also execute transactions that don't touch the same accounts in parallel.",
+   "The trade-offs are real. Running a validator takes strong hardware and bandwidth, and the network has had several outages, notably in 2021 and 2022. Multiple independent validator clients are now being developed to reduce the risk of one bug halting the chain.",
+   "SOL pays transaction fees and is staked to validators. AltQuick quotes it against Bitcoin."
+  ],
+  "links": [
+   [
+    "Website",
+    "https://solana.com/"
+   ],
+   [
+    "Explorer (Solscan)",
+    "https://solscan.io/"
+   ],
+   [
+    "Validator client (Agave)",
+    "https://github.com/anza-xyz/agave"
+   ]
+  ],
+  "related": [
+   "AVAX",
+   "QTUM",
+   "DOGE"
+  ]
+ },
+ "WOW": {
+  "summary": "Wownero is a Doge-inspired, CPU-mined privacy memecoin forked from Monero and launched on 1 April 2018.",
+  "description": "Wownero (WOW) price in Bitcoin with live WOW/BTC order book, trades and 90-day chart, plus how this Monero fork's supply, mining and privacy work.",
+  "launched": "1 April 2018 (April Fools' Day), with no premine.",
+  "consensus": "CPU-oriented proof of work using a lighter variant of Monero's RandomX; solo mining only.",
+  "about": [
+   "Wownero launched on April Fools' Day 2018 as a self-described privacy memecoin, mixing Dogecoin's humor with Monero's technology. It's a software fork of Monero, not a chain fork, so nobody got free coins at launch, and there is no premine, trusted setup or developer tax.",
+   "Privacy works the way it does in Monero: ring signatures hide the sender, stealth addresses hide the recipient and RingCT hides amounts, all on by default. Wownero uses larger rings than Monero. Mining uses a lighter version of RandomX aimed at ordinary CPUs, and the project promotes solo mining straight from a Wownero node rather than through big pools.",
+   "Unlike Monero, which has a permanent tail emission, Wownero has a fixed supply of 184 million coins emitted over about 50 years. The community suggests micro-tipping meme creators as the main use, and development is paid for by a community funding system rather than a company.",
+   "If you want the serious version of this technology, see Monero; Wownero is the same privacy model with jokes on top."
+  ],
+  "links": [
+   [
+    "Website",
+    "https://wownero.org/"
+   ],
+   [
+    "Explorer",
+    "https://explore.wownero.com/"
+   ]
+  ],
+  "related": [
+   "XMR",
+   "DOGE",
+   "ZEC"
+  ]
+ },
+ "XMR": {
+  "summary": "Monero is a CryptoNote-based privacy coin launched in April 2014 that hides senders, receivers and amounts by default.",
+  "description": "Monero (XMR) price in BTC: live XMR/BTC order book, recent trades and 90-day chart, plus how Monero's default privacy, RandomX mining and tail emission work.",
+  "launched": "18 April 2014, originally as Bitmonero.",
+  "consensus": "RandomX proof of work, designed for general-purpose CPUs, with roughly two-minute blocks.",
+  "about": [
+   "Monero launched on 18 April 2014 as Bitmonero, a fork of the CryptoNote code used by Bytecoin, and was soon renamed Monero, Esperanto for 'coin'. It's run by an open community with no company or premine behind it.",
+   "Privacy is mandatory, not optional. Ring signatures mix the real sender with decoys, stealth addresses give every payment a one-time address so the recipient's public address never appears on chain, and RingCT, added in 2017, hides amounts. Since every transaction looks alike, coins are fungible: no coin carries a visible history. View keys let you prove a payment to an auditor when you choose to.",
+   "Since November 2019 Monero has used RandomX, a proof-of-work algorithm built to run best on ordinary CPUs and resist ASICs. After the main emission curve ended in 2022, a permanent tail emission of 0.6 XMR per block keeps paying miners. Block size adjusts dynamically with demand.",
+   "Because of its privacy, Monero has been delisted by many large exchanges. AltQuick keeps an XMR/BTC market."
+  ],
+  "links": [
+   [
+    "Website",
+    "https://www.getmonero.org/"
+   ],
+   [
+    "Explorer",
+    "https://xmrchain.net/"
+   ],
+   [
+    "Source code",
+    "https://github.com/monero-project/monero"
+   ]
+  ],
+  "related": [
+   "WOW",
+   "ZEC",
+   "DASH"
+  ]
+ },
+ "ZEC": {
+  "summary": "Zcash is a 2016 Bitcoin-style coin with optional shielded payments using zero-knowledge proofs.",
+  "description": "Zcash (ZEC) price in Bitcoin: live ZEC/BTC order book, trades and 90-day chart, plus a plain guide to transparent vs shielded Zcash addresses.",
+  "launched": "28 October 2016.",
+  "consensus": "Equihash proof of work with 75-second blocks.",
+  "about": [
+   "Zcash launched on 28 October 2016. It grew out of Zerocash, academic research on using zero-knowledge proofs for private payments, and was developed by the company now called Electric Coin Company. Like Bitcoin it has a 21 million coin cap and halvings; it uses Equihash proof of work, and blocks have come every 75 seconds since a 2019 upgrade.",
+   "Zcash has two kinds of addresses. Transparent addresses (starting with t) work like Bitcoin: everything is public. Shielded addresses use zero-knowledge proofs (zk-SNARKs) to hide the sender, receiver and amount while still proving the transaction is valid. Shielding is optional, which is the main difference from Monero, where privacy is always on.",
+   "The shielded protocol has gone through generations: Sprout at launch, Sapling in 2018, which made shielded transactions practical on phones, and Orchard in 2022, built on the Halo 2 proving system, which doesn't need the trusted setup ceremony the earlier pools relied on.",
+   "Check whether AltQuick's ZEC deposit address is transparent or shielded before sending from a shielded wallet."
+  ],
+  "links": [
+   [
+    "Website",
+    "https://z.cash/"
+   ],
+   [
+    "Explorer",
+    "https://mainnet.zcashexplorer.app/"
+   ],
+   [
+    "Source code",
+    "https://github.com/zcash/zcash"
+   ]
+  ],
+  "related": [
+   "XMR",
+   "DASH",
+   "PART"
+  ]
+ }
+}
