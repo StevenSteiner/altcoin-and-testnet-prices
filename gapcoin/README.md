@@ -165,7 +165,7 @@ curl "https://altquick.com/api/v1/klines?market=BTC_GAP&interval=1d&limit=90"
 
 Background facts were checked against each project's own sites and public sources. Nothing here is investment advice.
 
-Last updated: 2026-10-01 00:42 UTC from AltQuick's public API.
+Last updated: 2026-10-01 10:43 UTC from AltQuick's public API.
 
 ---
 

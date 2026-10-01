@@ -14,8 +14,8 @@ Mazacoin is a 2014 SHA-256 coin created by Payu Harris for the Oglala Lakota Nat
 |---|---|
 | Last price | 0.00000003 BTC |
 | Best bid / ask | 0.00000003 / 0.00000004 BTC |
-| Trades, last 7 days | 3 |
-| Volume, last 7 days | 0.00181771 BTC |
+| Trades, last 7 days | 2 |
+| Volume, last 7 days | 0.00126392 BTC |
 | Last trade | 2026-09-28 19:06 UTC |
 
 ## About Mazacoin
@@ -165,7 +165,7 @@ curl "https://altquick.com/api/v1/klines?market=BTC_MAZA&interval=1d&limit=90"
 
 Background facts were checked against each project's own sites and public sources. Nothing here is investment advice.
 
-Last updated: 2026-10-01 00:42 UTC from AltQuick's public API.
+Last updated: 2026-10-01 10:43 UTC from AltQuick's public API.
 
 ---
 

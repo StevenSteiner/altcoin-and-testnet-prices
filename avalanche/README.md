@@ -13,7 +13,7 @@ Avalanche is a proof-of-stake smart-contract platform whose mainnet launched in 
 | | |
 |---|---|
 | Last price | 0.00012167 BTC |
-| Best bid / ask | 0.00011703 / 0.00013664 BTC |
+| Best bid / ask | 0.00008003 / 0.00013664 BTC |
 | Trades, last 7 days | 14 |
 | Volume, last 7 days | 0.00020886 BTC |
 | Last trade | 2026-09-29 18:55 UTC |
@@ -96,11 +96,11 @@ Top 5 bids (buy orders) and asks (sell orders).
 
 | Bid price (BTC) | Bid amount (AVAX) | Ask price (BTC) | Ask amount (AVAX) |
 |---|---|---|---|
-| 0.00011703 | 9.09869 | 0.00013664 | 0.17832 |
-| 0.00008003 | 19.91 | 0.00013665 | 0.0891598 |
-| 0.00008000 | 25 | 0.00013938 | 2.12429 |
-| 0.00007600 | 0.7 | 0.00013940 | 0.847851 |
-| 0.00003300 | 0.0515152 | 0.00014000 | 3 |
+| 0.00008003 | 19.91 | 0.00013664 | 0.530795 |
+| 0.00008000 | 25 | 0.00013665 | 0.0891598 |
+| 0.00007600 | 0.7 | 0.00013938 | 2.12429 |
+| 0.00003300 | 0.0515152 | 0.00013940 | 0.495376 |
+| 0.00003200 | 0.180938 | 0.00014000 | 3 |
 
 ## Recent trades
 
@@ -165,7 +165,7 @@ curl "https://altquick.com/api/v1/klines?market=BTC_AVAX&interval=1d&limit=90"
 
 Background facts were checked against each project's own sites and public sources. Nothing here is investment advice.
 
-Last updated: 2026-10-01 00:42 UTC from AltQuick's public API.
+Last updated: 2026-10-01 10:43 UTC from AltQuick's public API.
 
 ---
 

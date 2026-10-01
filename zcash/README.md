@@ -13,7 +13,7 @@ Zcash is a 2016 Bitcoin-style coin with optional shielded payments using zero-kn
 | | |
 |---|---|
 | Last price | 0.01695198 BTC |
-| Best bid / ask | 0.01534042 / 0.01799999 BTC |
+| Best bid / ask | 0.00500000 / 0.01799999 BTC |
 | Trades, last 7 days | 4 |
 | Volume, last 7 days | 0.00038429 BTC |
 | Last trade | 2026-09-27 23:56 UTC |
@@ -96,11 +96,11 @@ Top 5 bids (buy orders) and asks (sell orders).
 
 | Bid price (BTC) | Bid amount (ZEC) | Ask price (BTC) | Ask amount (ZEC) |
 |---|---|---|---|
-| 0.01534042 | 0.0694127 | 0.01799999 | 0.00263056 |
-| 0.00500000 | 0.100024 | 0.01874940 | 0.0216384 |
-| 0.00400001 | 0.0899998 | 0.01900000 | 0.01 |
-| 0.00295001 | 0.0899997 | 0.02100000 | 0.02 |
-| 0.00040517 | 0.0999827 | 0.89867000 | 8.07e-06 |
+| 0.00500000 | 0.100024 | 0.01799999 | 0.00263056 |
+| 0.00400001 | 0.0899998 | 0.01830614 | 0.0216384 |
+| 0.00295001 | 0.0899997 | 0.01900000 | 0.01 |
+| 0.00040517 | 0.0999827 | 0.02100000 | 0.02 |
+| 0.00040516 | 0.5 | 0.89867000 | 8.07e-06 |
 
 ## Recent trades
 
@@ -165,7 +165,7 @@ curl "https://altquick.com/api/v1/klines?market=BTC_ZEC&interval=1d&limit=90"
 
 Background facts were checked against each project's own sites and public sources. Nothing here is investment advice.
 
-Last updated: 2026-10-01 00:42 UTC from AltQuick's public API.
+Last updated: 2026-10-01 10:43 UTC from AltQuick's public API.
 
 ---
 

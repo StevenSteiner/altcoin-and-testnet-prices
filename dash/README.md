@@ -13,7 +13,7 @@ Dash is a payments-focused cryptocurrency with a masternode network that provide
 | | |
 |---|---|
 | Last price | 0.00066190 BTC |
-| Best bid / ask | 0.00064885 / 0.00079303 BTC |
+| Best bid / ask | 0.00050000 / 0.00078049 BTC |
 | Trades, last 7 days | 1 |
 | Volume, last 7 days | 0.00002032 BTC |
 | Last trade | 2026-09-29 18:56 UTC |
@@ -97,11 +97,11 @@ Top 5 bids (buy orders) and asks (sell orders).
 
 | Bid price (BTC) | Bid amount (DASH) | Ask price (BTC) | Ask amount (DASH) |
 |---|---|---|---|
-| 0.00064885 | 1.64109 | 0.00079303 | 0.0303967 |
-| 0.00050000 | 0.12496 | 0.00084000 | 15 |
-| 0.00043125 | 30.4402 | 0.00087875 | 43.7816 |
-| 0.00011900 | 0.00655463 | 0.00400000 | 0.001 |
-| 0.00010110 | 0.0395648 | 0.00541000 | 0.049 |
+| 0.00050000 | 0.12496 | 0.00078049 | 0.0303967 |
+| 0.00043125 | 30.4402 | 0.00084000 | 15 |
+| 0.00011900 | 0.00655463 | 0.00087875 | 43.7816 |
+| 0.00010110 | 0.0395648 | 0.00400000 | 0.001 |
+| 0.00009001 | 1 | 0.00541000 | 0.049 |
 
 ## Recent trades
 
@@ -166,7 +166,7 @@ curl "https://altquick.com/api/v1/klines?market=BTC_DASH&interval=1d&limit=90"
 
 Background facts were checked against each project's own sites and public sources. Nothing here is investment advice.
 
-Last updated: 2026-10-01 00:42 UTC from AltQuick's public API.
+Last updated: 2026-10-01 10:43 UTC from AltQuick's public API.
 
 ---
 

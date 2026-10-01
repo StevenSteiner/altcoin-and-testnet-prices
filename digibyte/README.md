@@ -14,8 +14,8 @@ DigiByte is a 2014 UTXO blockchain with 15-second blocks and five mining algorit
 |---|---|
 | Last price | 0.00000004 BTC |
 | Best bid / ask | 0.00000005 / 0.00000006 BTC |
-| Trades, last 7 days | 7 |
-| Volume, last 7 days | 0.00060173 BTC |
+| Trades, last 7 days | 6 |
+| Volume, last 7 days | 0.00059857 BTC |
 | Last trade | 2026-09-30 00:05 UTC |
 
 ## About DigiByte
@@ -98,7 +98,7 @@ Top 5 bids (buy orders) and asks (sell orders).
 | Bid price (BTC) | Bid amount (DGB) | Ask price (BTC) | Ask amount (DGB) |
 |---|---|---|---|
 | 0.00000005 | 18.4 | 0.00000006 | 130510 |
-| 0.00000004 | 1.98933e+06 | 0.00000007 | 83362.1 |
+| 0.00000004 | 1.96271e+06 | 0.00000007 | 83362.1 |
 | 0.00000003 | 1.97997e+06 | 0.00000008 | 97826.8 |
 | 0.00000002 | 1.98534e+06 | 0.00000009 | 97330.2 |
 | 0.00000001 | 2.94528e+06 | 0.00000010 | 97458.9 |
@@ -166,7 +166,7 @@ curl "https://altquick.com/api/v1/klines?market=BTC_DGB&interval=1d&limit=90"
 
 Background facts were checked against each project's own sites and public sources. Nothing here is investment advice.
 
-Last updated: 2026-10-01 00:42 UTC from AltQuick's public API.
+Last updated: 2026-10-01 10:43 UTC from AltQuick's public API.
 
 ---
 

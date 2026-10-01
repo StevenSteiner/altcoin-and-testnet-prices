@@ -98,10 +98,10 @@ Top 5 bids (buy orders) and asks (sell orders).
 | Bid price (BTC) | Bid amount (42) | Ask price (BTC) | Ask amount (42) |
 |---|---|---|---|
 | 0.30000000 | 0.005 | 0.41997976 | 5e-07 |
-| 0.20000002 | 6e-07 | 0.41997979 | 2.6e-07 |
-| 0.20000000 | 0.001 | 0.41997980 | 0.00017069 |
-| 0.10000000 | 0.002 | 0.41997990 | 1.8e-07 |
-| 0.06000010 | 0.0006 | 0.42000000 | 0.00017 |
+| 0.20000000 | 0.001 | 0.41997979 | 2.9e-07 |
+| 0.10000000 | 0.002 | 0.41997980 | 0.00017069 |
+| 0.06000010 | 0.0006 | 0.41997990 | 1.8e-07 |
+| 0.01000000 | 0.004448 | 0.42000000 | 0.00017 |
 
 ## Recent trades
 
@@ -166,7 +166,7 @@ curl "https://altquick.com/api/v1/klines?market=BTC_42&interval=1d&limit=90"
 
 Background facts were checked against each project's own sites and public sources. Nothing here is investment advice.
 
-Last updated: 2026-10-01 00:42 UTC from AltQuick's public API.
+Last updated: 2026-10-01 10:43 UTC from AltQuick's public API.
 
 ---
 

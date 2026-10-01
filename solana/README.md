@@ -98,9 +98,9 @@ Top 5 bids (buy orders) and asks (sell orders).
 |---|---|---|---|
 | 0.00140000 | 0.98695 | 0.00145000 | 10.0001 |
 | 0.00130000 | 1 | 0.00500000 | 1e-05 |
-| 0.00127192 | 0.837183 | 0.00600000 | 1e-05 |
-| 0.00126120 | 0.0399937 | 0.80000000 | 0.00033 |
-| 0.00011200 | 0.0190179 | 0.85000000 | 4e-05 |
+| 0.00126120 | 0.0399937 | 0.00600000 | 1e-05 |
+| 0.00011200 | 0.0190179 | 0.80000000 | 0.00033 |
+| 0.00005000 | 0.0028 | 0.85000000 | 4e-05 |
 
 ## Recent trades
 
@@ -165,7 +165,7 @@ curl "https://altquick.com/api/v1/klines?market=BTC_SOL&interval=1d&limit=90"
 
 Background facts were checked against each project's own sites and public sources. Nothing here is investment advice.
 
-Last updated: 2026-10-01 00:42 UTC from AltQuick's public API.
+Last updated: 2026-10-01 10:43 UTC from AltQuick's public API.
 
 ---
 

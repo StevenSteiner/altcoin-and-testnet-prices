@@ -57,7 +57,7 @@ curl "https://altquick.com/api/v1/klines?market=BTC_TBTC4&interval=1d&limit=90"
 
 [See every AltQuick market](../)
 
-Last updated: 2026-10-01 00:42 UTC from AltQuick's public API.
+Last updated: 2026-10-01 10:43 UTC from AltQuick's public API.
 
 ---
 

@@ -12,11 +12,11 @@ Litecoin is one of the oldest Bitcoin forks, launched by Charlie Lee in October 
 
 | | |
 |---|---|
-| Last price | 0.00072837 BTC |
-| Best bid / ask | 0.00072487 / 0.00084299 BTC |
-| Trades, last 7 days | 19 |
-| Volume, last 7 days | 0.01975139 BTC |
-| Last trade | 2026-09-29 18:56 UTC |
+| Last price | 0.00065503 BTC |
+| Best bid / ask | 0.00065502 / 0.00084299 BTC |
+| Trades, last 7 days | 24 |
+| Volume, last 7 days | 0.01049456 BTC |
+| Last trade | 2026-10-01 05:23 UTC |
 
 ## About Litecoin
 
@@ -46,8 +46,8 @@ Since 2014 Dogecoin has been merge-mined with Litecoin, so the same Scrypt hardw
 
 | | |
 |---|---|
-| Change, 30 days | +16.3% |
-| Change, 90 days | +6.1% |
+| Change, 30 days | +4.6% |
+| Change, 90 days | -4.6% |
 | Highest daily close | 0.00085875 BTC |
 | Lowest daily close | 0.00062612 BTC |
 
@@ -57,7 +57,7 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 
 | Date (UTC) | Close (BTC) | High | Low | Volume (LTC) |
 |---|---|---|---|---|
-| 2026-10-01 | 0.00072837 | 0.00072837 | 0.00072837 | 0 |
+| 2026-10-01 | 0.00065503 | 0.00071000 | 0.00065502 | 0.64467 |
 | 2026-09-30 | 0.00072837 | 0.00072837 | 0.00072837 | 0 |
 | 2026-09-29 | 0.00072837 | 0.00072838 | 0.00072837 | 0.470662 |
 | 2026-09-28 | 0.00085875 | 0.00085875 | 0.00075180 | 1.55128 |
@@ -96,26 +96,26 @@ Top 5 bids (buy orders) and asks (sell orders).
 
 | Bid price (BTC) | Bid amount (LTC) | Ask price (BTC) | Ask amount (LTC) |
 |---|---|---|---|
-| 0.00072487 | 0.367252 | 0.00084299 | 0.0005694 |
-| 0.00072486 | 1.46901 | 0.00084300 | 0.0002847 |
-| 0.00071000 | 8.451e-05 | 0.00085875 | 5.32296 |
-| 0.00070000 | 7.143e-05 | 0.00088594 | 1.24772 |
-| 0.00069000 | 8.696e-05 | 0.00088888 | 5.00768 |
+| 0.00065502 | 5.61275 | 0.00084299 | 0.0005694 |
+| 0.00065500 | 7 | 0.00084300 | 0.0002847 |
+| 0.00065000 | 9.231e-05 | 0.00085875 | 5.32296 |
+| 0.00064000 | 9.375e-05 | 0.00088888 | 5.00768 |
+| 0.00063500 | 0.111465 | 0.00091875 | 5.06844 |
 
 ## Recent trades
 
 | Time (UTC) | Side | Price (BTC) | Amount (LTC) |
 |---|---|---|---|
+| 2026-10-01 05:23 | sell | 0.00065503 | 0.23713101 |
+| 2026-10-01 05:00 | sell | 0.00065502 | 0.40690138 |
+| 2026-10-01 05:00 | sell | 0.00066000 | 0.00009091 |
+| 2026-10-01 05:00 | sell | 0.00067000 | 0.00007463 |
+| 2026-10-01 05:00 | sell | 0.00068000 | 0.00008824 |
+| 2026-10-01 05:00 | sell | 0.00069000 | 0.00008696 |
+| 2026-10-01 05:00 | sell | 0.00070000 | 0.00007143 |
+| 2026-10-01 05:00 | sell | 0.00071000 | 0.00014085 |
+| 2026-10-01 05:00 | sell | 0.00071000 | 0.00008451 |
 | 2026-09-29 18:56 | sell | 0.00072837 | 0.36419313 |
-| 2026-09-29 18:56 | sell | 0.00072838 | 0.10646916 |
-| 2026-09-28 19:06 | buy | 0.00085875 | 0.63558660 |
-| 2026-09-28 19:06 | buy | 0.00085874 | 0.52592867 |
-| 2026-09-28 16:51 | sell | 0.00075180 | 0.38948070 |
-| 2026-09-28 16:51 | sell | 0.00080275 | 0.00028652 |
-| 2026-09-26 17:59 | buy | 0.00085875 | 0.00221252 |
-| 2026-09-26 15:39 | buy | 0.00085875 | 1.00000000 |
-| 2026-09-25 10:15 | buy | 0.00084500 | 0.00027000 |
-| 2026-09-25 02:45 | sell | 0.00075513 | 0.08848927 |
 
 ## How to buy Litecoin with Bitcoin
 
@@ -165,7 +165,7 @@ curl "https://altquick.com/api/v1/klines?market=BTC_LTC&interval=1d&limit=90"
 
 Background facts were checked against each project's own sites and public sources. Nothing here is investment advice.
 
-Last updated: 2026-10-01 00:42 UTC from AltQuick's public API.
+Last updated: 2026-10-01 10:43 UTC from AltQuick's public API.
 
 ---
 

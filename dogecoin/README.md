@@ -14,9 +14,9 @@ Dogecoin is the Shiba Inu meme coin launched in December 2013, a Scrypt chain me
 |---|---|
 | Last price | 0.00000106 BTC |
 | Best bid / ask | 0.00000106 / 0.00000118 BTC |
-| Trades, last 7 days | 51 |
-| Volume, last 7 days | 0.00105378 BTC |
-| Last trade | 2026-10-01 00:36 UTC |
+| Trades, last 7 days | 52 |
+| Volume, last 7 days | 0.00105855 BTC |
+| Last trade | 2026-10-01 05:56 UTC |
 
 ## About Dogecoin
 
@@ -57,7 +57,7 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 
 | Date (UTC) | Close (BTC) | High | Low | Volume (DOGE) |
 |---|---|---|---|---|
-| 2026-10-01 | 0.00000106 | 0.00000106 | 0.00000106 | 0.31 |
+| 2026-10-01 | 0.00000106 | 0.00000106 | 0.00000106 | 4.81 |
 | 2026-09-30 | 0.00000120 | 0.00000120 | 0.00000120 | 0 |
 | 2026-09-29 | 0.00000120 | 0.00000120 | 0.00000120 | 0.075 |
 | 2026-09-28 | 0.00000120 | 0.00000120 | 0.00000105 | 910.293 |
@@ -96,7 +96,7 @@ Top 5 bids (buy orders) and asks (sell orders).
 
 | Bid price (BTC) | Bid amount (DOGE) | Ask price (BTC) | Ask amount (DOGE) |
 |---|---|---|---|
-| 0.00000106 | 33.6994 | 0.00000118 | 1.30181 |
+| 0.00000106 | 29.1994 | 0.00000118 | 1.30181 |
 | 0.00000105 | 4958.58 | 0.00000119 | 0.798319 |
 | 0.00000104 | 0.0576923 | 0.00000127 | 27.6823 |
 | 0.00000103 | 8125.75 | 0.00000129 | 1.27717 |
@@ -106,6 +106,7 @@ Top 5 bids (buy orders) and asks (sell orders).
 
 | Time (UTC) | Side | Price (BTC) | Amount (DOGE) |
 |---|---|---|---|
+| 2026-10-01 05:56 | sell | 0.00000106 | 4.50000000 |
 | 2026-10-01 00:36 | sell | 0.00000106 | 0.31000000 |
 | 2026-09-29 18:41 | buy | 0.00000120 | 0.07500000 |
 | 2026-09-28 18:54 | buy | 0.00000120 | 2.71666667 |
@@ -114,7 +115,6 @@ Top 5 bids (buy orders) and asks (sell orders).
 | 2026-09-28 01:00 | sell | 0.00000105 | 100.00000000 |
 | 2026-09-27 21:52 | sell | 0.00000105 | 56.19514051 |
 | 2026-09-27 21:52 | sell | 0.00000106 | 0.34905661 |
-| 2026-09-27 21:52 | sell | 0.00000106 | 0.93396227 |
 | 2026-09-27 21:52 | sell | 0.00000106 | 0.93396227 |
 
 ## How to buy Dogecoin with Bitcoin
@@ -165,7 +165,7 @@ curl "https://altquick.com/api/v1/klines?market=BTC_DOGE&interval=1d&limit=90"
 
 Background facts were checked against each project's own sites and public sources. Nothing here is investment advice.
 
-Last updated: 2026-10-01 00:42 UTC from AltQuick's public API.
+Last updated: 2026-10-01 10:43 UTC from AltQuick's public API.
 
 ---
 
