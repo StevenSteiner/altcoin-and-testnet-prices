@@ -13,9 +13,9 @@ Dogecoin is the Shiba Inu meme coin launched in December 2013, a Scrypt chain me
 | | |
 |---|---|
 | Last price | 0.00000106 BTC |
-| Best bid / ask | 0.00000106 / 0.00000118 BTC |
-| Trades, last 7 days | 52 |
-| Volume, last 7 days | 0.00105855 BTC |
+| Best bid / ask | 0.00000110 / 0.00000118 BTC |
+| Trades, last 7 days | 49 |
+| Volume, last 7 days | 0.00105610 BTC |
 | Last trade | 2026-10-01 05:56 UTC |
 
 ## About Dogecoin
@@ -47,7 +47,7 @@ Dogecoin addresses usually start with D; withdraw only to a DOGE wallet.
 | | |
 |---|---|
 | Change, 30 days | -0.9% |
-| Change, 90 days | -15.2% |
+| Change, 90 days | -25.9% |
 | Highest daily close | 0.00000145 BTC |
 | Lowest daily close | 0.00000105 BTC |
 
@@ -57,6 +57,7 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 
 | Date (UTC) | Close (BTC) | High | Low | Volume (DOGE) |
 |---|---|---|---|---|
+| 2026-10-02 | 0.00000106 | 0.00000106 | 0.00000106 | 0 |
 | 2026-10-01 | 0.00000106 | 0.00000106 | 0.00000106 | 4.81 |
 | 2026-09-30 | 0.00000120 | 0.00000120 | 0.00000120 | 0 |
 | 2026-09-29 | 0.00000120 | 0.00000120 | 0.00000120 | 0.075 |
@@ -86,7 +87,6 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 | 2026-09-05 | 0.00000105 | 0.00000107 | 0.00000105 | 3447.91 |
 | 2026-09-04 | 0.00000107 | 0.00000111 | 0.00000107 | 940.031 |
 | 2026-09-03 | 0.00000131 | 0.00000131 | 0.00000131 | 1.0916 |
-| 2026-09-02 | 0.00000107 | 0.00000107 | 0.00000107 | 0 |
 
 </details>
 
@@ -96,11 +96,11 @@ Top 5 bids (buy orders) and asks (sell orders).
 
 | Bid price (BTC) | Bid amount (DOGE) | Ask price (BTC) | Ask amount (DOGE) |
 |---|---|---|---|
-| 0.00000106 | 29.1994 | 0.00000118 | 1.30181 |
-| 0.00000105 | 4958.58 | 0.00000119 | 0.798319 |
-| 0.00000104 | 0.0576923 | 0.00000127 | 27.6823 |
-| 0.00000103 | 8125.75 | 0.00000129 | 1.27717 |
-| 0.00000102 | 0.0588235 | 0.00000130 | 3 |
+| 0.00000110 | 0.981818 | 0.00000118 | 1.30181 |
+| 0.00000106 | 29.1994 | 0.00000119 | 0.798319 |
+| 0.00000105 | 4958.58 | 0.00000127 | 27.6823 |
+| 0.00000104 | 0.0576923 | 0.00000129 | 1.27717 |
+| 0.00000103 | 8125.75 | 0.00000130 | 3 |
 
 ## Recent trades
 
@@ -165,7 +165,7 @@ curl "https://altquick.com/api/v1/klines?market=BTC_DOGE&interval=1d&limit=90"
 
 Background facts were checked against each project's own sites and public sources. Nothing here is investment advice.
 
-Last updated: 2026-10-01 10:43 UTC from AltQuick's public API.
+Last updated: 2026-10-02 22:53 UTC from AltQuick's public API.
 
 ---
 

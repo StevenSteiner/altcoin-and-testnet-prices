@@ -12,11 +12,11 @@ Solana is a high-throughput proof-of-stake smart-contract chain that orders tran
 
 | | |
 |---|---|
-| Last price | 0.00140000 BTC |
+| Last price | 0.00145000 BTC |
 | Best bid / ask | 0.00140000 / 0.00145000 BTC |
-| Trades, last 7 days | 3 |
-| Volume, last 7 days | 0.00001827 BTC |
-| Last trade | 2026-09-28 12:18 UTC |
+| Trades, last 7 days | 4 |
+| Volume, last 7 days | 0.00009206 BTC |
+| Last trade | 2026-10-01 16:21 UTC |
 
 ## About Solana
 
@@ -46,8 +46,8 @@ SOL pays transaction fees and is staked to validators. AltQuick quotes it agains
 
 | | |
 |---|---|
-| Change, 30 days | +12.0% |
-| Change, 90 days | +21.0% |
+| Change, 30 days | +16.0% |
+| Change, 90 days | +25.3% |
 | Highest daily close | 0.00174999 BTC |
 | Lowest daily close | 0.00112000 BTC |
 
@@ -57,7 +57,8 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 
 | Date (UTC) | Close (BTC) | High | Low | Volume (SOL) |
 |---|---|---|---|---|
-| 2026-10-01 | 0.00140000 | 0.00140000 | 0.00140000 | 0 |
+| 2026-10-02 | 0.00145000 | 0.00145000 | 0.00145000 | 0 |
+| 2026-10-01 | 0.00145000 | 0.00145000 | 0.00145000 | 0.0508897 |
 | 2026-09-30 | 0.00140000 | 0.00140000 | 0.00140000 | 0 |
 | 2026-09-29 | 0.00140000 | 0.00140000 | 0.00140000 | 0 |
 | 2026-09-28 | 0.00140000 | 0.00140000 | 0.00140000 | 0.00105 |
@@ -86,7 +87,6 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 | 2026-09-05 | 0.00139999 | 0.00139999 | 0.00139999 | 0.00084287 |
 | 2026-09-04 | 0.00125001 | 0.00125001 | 0.00125001 | 0.0279179 |
 | 2026-09-03 | 0.00125001 | 0.00125001 | 0.00125001 | 0 |
-| 2026-09-02 | 0.00125001 | 0.00125001 | 0.00125001 | 0 |
 
 </details>
 
@@ -96,7 +96,7 @@ Top 5 bids (buy orders) and asks (sell orders).
 
 | Bid price (BTC) | Bid amount (SOL) | Ask price (BTC) | Ask amount (SOL) |
 |---|---|---|---|
-| 0.00140000 | 0.98695 | 0.00145000 | 10.0001 |
+| 0.00140000 | 0.98695 | 0.00145000 | 9.94926 |
 | 0.00130000 | 1 | 0.00500000 | 1e-05 |
 | 0.00126120 | 0.0399937 | 0.00600000 | 1e-05 |
 | 0.00011200 | 0.0190179 | 0.80000000 | 0.00033 |
@@ -106,6 +106,7 @@ Top 5 bids (buy orders) and asks (sell orders).
 
 | Time (UTC) | Side | Price (BTC) | Amount (SOL) |
 |---|---|---|---|
+| 2026-10-01 16:21 | buy | 0.00145000 | 0.05088965 |
 | 2026-09-28 12:18 | sell | 0.00140000 | 0.00105000 |
 | 2026-09-27 06:34 | sell | 0.00140000 | 0.01000000 |
 | 2026-09-26 18:44 | sell | 0.00140000 | 0.00200000 |
@@ -115,7 +116,6 @@ Top 5 bids (buy orders) and asks (sell orders).
 | 2026-09-14 19:16 | sell | 0.00125000 | 0.00185605 |
 | 2026-09-13 10:44 | buy | 0.00136000 | 0.00036765 |
 | 2026-09-12 08:53 | buy | 0.00139999 | 0.00150716 |
-| 2026-09-10 01:15 | buy | 0.00140000 | 0.42737857 |
 
 ## How to buy Solana with Bitcoin
 
@@ -165,7 +165,7 @@ curl "https://altquick.com/api/v1/klines?market=BTC_SOL&interval=1d&limit=90"
 
 Background facts were checked against each project's own sites and public sources. Nothing here is investment advice.
 
-Last updated: 2026-10-01 10:43 UTC from AltQuick's public API.
+Last updated: 2026-10-02 22:53 UTC from AltQuick's public API.
 
 ---
 

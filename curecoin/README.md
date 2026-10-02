@@ -12,11 +12,11 @@ Curecoin rewards people who run Folding@home disease-research simulations and se
 
 | | |
 |---|---|
-| Last price | 0.00000006 BTC |
-| Best bid / ask | 0.00000010 / 0.00000027 BTC |
-| Trades, last 7 days | 0 |
-| Volume, last 7 days | 0.00000000 BTC |
-| Last trade | 2026-09-21 20:55 UTC |
+| Last price | 0.00000005 BTC |
+| Best bid / ask | 0.00000006 / 0.00000009 BTC |
+| Trades, last 7 days | 10 |
+| Volume, last 7 days | 0.00007535 BTC |
+| Last trade | 2026-10-01 16:21 UTC |
 
 ## About Curecoin
 
@@ -46,10 +46,10 @@ To earn CURE rather than buy it, install Folding@home and fold for Team Curecoin
 
 | | |
 |---|---|
-| Change, 30 days | -72.7% |
-| Change, 90 days | -14.3% |
+| Change, 30 days | -77.3% |
+| Change, 90 days | -28.6% |
 | Highest daily close | 0.00000087 BTC |
-| Lowest daily close | 0.00000006 BTC |
+| Lowest daily close | 0.00000005 BTC |
 
 Daily candles from AltQuick's klines API, UTC days. On days without trades the previous close carries forward.
 
@@ -57,7 +57,8 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 
 | Date (UTC) | Close (BTC) | High | Low | Volume (CURE) |
 |---|---|---|---|---|
-| 2026-10-01 | 0.00000006 | 0.00000006 | 0.00000006 | 0 |
+| 2026-10-02 | 0.00000005 | 0.00000005 | 0.00000005 | 0 |
+| 2026-10-01 | 0.00000005 | 0.00000010 | 0.00000005 | 1168 |
 | 2026-09-30 | 0.00000006 | 0.00000006 | 0.00000006 | 0 |
 | 2026-09-29 | 0.00000006 | 0.00000006 | 0.00000006 | 0 |
 | 2026-09-28 | 0.00000006 | 0.00000006 | 0.00000006 | 0 |
@@ -86,7 +87,6 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 | 2026-09-05 | 0.00000010 | 0.00000010 | 0.00000010 | 0 |
 | 2026-09-04 | 0.00000010 | 0.00000029 | 0.00000010 | 98 |
 | 2026-09-03 | 0.00000030 | 0.00000030 | 0.00000030 | 48 |
-| 2026-09-02 | 0.00000022 | 0.00000022 | 0.00000022 | 0 |
 
 </details>
 
@@ -96,26 +96,26 @@ Top 5 bids (buy orders) and asks (sell orders).
 
 | Bid price (BTC) | Bid amount (CURE) | Ask price (BTC) | Ask amount (CURE) |
 |---|---|---|---|
-| 0.00000010 | 15 | 0.00000027 | 6.77273 |
-| 0.00000008 | 156.25 | 0.00000028 | 0.727273 |
-| 0.00000007 | 435.286 | 0.00000030 | 47.5 |
-| 0.00000006 | 281.167 | 0.00000031 | 1350 |
-| 0.00000005 | 10486 | 0.00000032 | 1 |
+| 0.00000006 | 1204.5 | 0.00000009 | 2.17778 |
+| 0.00000005 | 5000 | 0.00000011 | 5 |
+| 0.00000004 | 19484.2 | 0.00000014 | 7.35714 |
+| 0.00000003 | 99479 | 0.00000026 | 247.795 |
+| 0.00000002 | 151930 | 0.00000027 | 6.77273 |
 
 ## Recent trades
 
 | Time (UTC) | Side | Price (BTC) | Amount (CURE) |
 |---|---|---|---|
-| 2026-09-21 20:55 | sell | 0.00000006 | 98.00000000 |
-| 2026-09-21 13:31 | sell | 0.00000006 | 1670.21230158 |
-| 2026-09-21 13:31 | sell | 0.00000007 | 22.85714286 |
-| 2026-09-21 13:31 | sell | 0.00000007 | 12.00000000 |
-| 2026-09-21 13:31 | sell | 0.00000008 | 13.00000000 |
-| 2026-09-21 13:31 | sell | 0.00000008 | 124.93055556 |
-| 2026-09-20 06:19 | sell | 0.00000008 | 161.44444444 |
-| 2026-09-20 06:19 | sell | 0.00000009 | 976.55555556 |
-| 2026-09-13 19:09 | sell | 0.00000008 | 98.00000000 |
-| 2026-09-07 23:36 | sell | 0.00000006 | 423.85564391 |
+| 2026-10-01 16:21 | sell | 0.00000005 | 250.29761904 |
+| 2026-10-01 16:21 | sell | 0.00000005 | 30.00000000 |
+| 2026-10-01 16:21 | sell | 0.00000006 | 266.66666667 |
+| 2026-10-01 16:21 | sell | 0.00000006 | 14.50000000 |
+| 2026-10-01 16:21 | sell | 0.00000007 | 435.28571429 |
+| 2026-10-01 16:21 | sell | 0.00000008 | 156.25000000 |
+| 2026-10-01 16:21 | sell | 0.00000010 | 5.00000000 |
+| 2026-10-01 16:21 | sell | 0.00000010 | 6.00000000 |
+| 2026-10-01 16:21 | sell | 0.00000010 | 2.00000000 |
+| 2026-10-01 16:21 | sell | 0.00000010 | 2.00000000 |
 
 ## How to buy Curecoin with Bitcoin
 
@@ -165,7 +165,7 @@ curl "https://altquick.com/api/v1/klines?market=BTC_CURE&interval=1d&limit=90"
 
 Background facts were checked against each project's own sites and public sources. Nothing here is investment advice.
 
-Last updated: 2026-10-01 10:43 UTC from AltQuick's public API.
+Last updated: 2026-10-02 22:53 UTC from AltQuick's public API.
 
 ---
 

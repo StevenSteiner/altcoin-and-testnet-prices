@@ -13,7 +13,7 @@ Wownero is a Doge-inspired, CPU-mined privacy memecoin forked from Monero and la
 | | |
 |---|---|
 | Last price | 0.00000010 BTC |
-| Best bid / ask | 0.00000012 / 0.00000013 BTC |
+| Best bid / ask | 0.00000011 / 0.00000012 BTC |
 | Trades, last 7 days | 0 |
 | Volume, last 7 days | 0.00000000 BTC |
 | Last trade | 2026-09-11 08:25 UTC |
@@ -56,6 +56,7 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 
 | Date (UTC) | Close (BTC) | High | Low | Volume (WOW) |
 |---|---|---|---|---|
+| 2026-10-02 | 0.00000010 | 0.00000010 | 0.00000010 | 0 |
 | 2026-10-01 | 0.00000010 | 0.00000010 | 0.00000010 | 0 |
 | 2026-09-30 | 0.00000010 | 0.00000010 | 0.00000010 | 0 |
 | 2026-09-29 | 0.00000010 | 0.00000010 | 0.00000010 | 0 |
@@ -85,7 +86,6 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 | 2026-09-05 | 0.00000011 | 0.00000011 | 0.00000011 | 0 |
 | 2026-09-04 | 0.00000011 | 0.00000011 | 0.00000011 | 263.889 |
 | 2026-09-03 | 0.00000033 | 0.00000033 | 0.00000033 | 0 |
-| 2026-09-02 | 0.00000033 | 0.00000033 | 0.00000033 | 0 |
 
 </details>
 
@@ -95,11 +95,11 @@ Top 5 bids (buy orders) and asks (sell orders).
 
 | Bid price (BTC) | Bid amount (WOW) | Ask price (BTC) | Ask amount (WOW) |
 |---|---|---|---|
-| 0.00000012 | 745.667 | 0.00000013 | 2297.8 |
-| 0.00000011 | 813.455 | 0.00000014 | 2297.8 |
-| 0.00000010 | 1536.21 | 0.00000015 | 116.167 |
-| 0.00000009 | 4254.89 | 0.00000016 | 151.363 |
-| 0.00000008 | 4767.38 | 0.00000017 | 170.1 |
+| 0.00000011 | 813.455 | 0.00000012 | 3954.4 |
+| 0.00000010 | 1536.21 | 0.00000013 | 2297.8 |
+| 0.00000009 | 4254.89 | 0.00000014 | 2297.8 |
+| 0.00000008 | 4767.38 | 0.00000015 | 116.167 |
+| 0.00000007 | 10794.7 | 0.00000016 | 151.363 |
 
 ## Recent trades
 
@@ -164,7 +164,7 @@ curl "https://altquick.com/api/v1/klines?market=BTC_WOW&interval=1d&limit=90"
 
 Background facts were checked against each project's own sites and public sources. Nothing here is investment advice.
 
-Last updated: 2026-10-01 10:43 UTC from AltQuick's public API.
+Last updated: 2026-10-02 22:53 UTC from AltQuick's public API.
 
 ---
 

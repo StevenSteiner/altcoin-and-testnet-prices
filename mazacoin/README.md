@@ -15,8 +15,8 @@ Mazacoin is a 2014 SHA-256 coin created by Payu Harris for the Oglala Lakota Nat
 | Last price | 0.00000003 BTC |
 | Best bid / ask | 0.00000003 / 0.00000004 BTC |
 | Trades, last 7 days | 2 |
-| Volume, last 7 days | 0.00126392 BTC |
-| Last trade | 2026-09-28 19:06 UTC |
+| Volume, last 7 days | 0.00109080 BTC |
+| Last trade | 2026-10-01 16:36 UTC |
 
 ## About Mazacoin
 
@@ -57,7 +57,8 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 
 | Date (UTC) | Close (BTC) | High | Low | Volume (MAZA) |
 |---|---|---|---|---|
-| 2026-10-01 | 0.00000003 | 0.00000003 | 0.00000003 | 0 |
+| 2026-10-02 | 0.00000003 | 0.00000003 | 0.00000003 | 0 |
+| 2026-10-01 | 0.00000003 | 0.00000003 | 0.00000003 | 2433.62 |
 | 2026-09-30 | 0.00000003 | 0.00000003 | 0.00000003 | 0 |
 | 2026-09-29 | 0.00000003 | 0.00000003 | 0.00000003 | 0 |
 | 2026-09-28 | 0.00000003 | 0.00000003 | 0.00000003 | 33927 |
@@ -86,7 +87,6 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 | 2026-09-05 | 0.00000003 | 0.00000003 | 0.00000003 | 0 |
 | 2026-09-04 | 0.00000003 | 0.00000003 | 0.00000003 | 0 |
 | 2026-09-03 | 0.00000003 | 0.00000003 | 0.00000003 | 0 |
-| 2026-09-02 | 0.00000003 | 0.00000003 | 0.00000003 | 0 |
 
 </details>
 
@@ -96,7 +96,7 @@ Top 5 bids (buy orders) and asks (sell orders).
 
 | Bid price (BTC) | Bid amount (MAZA) | Ask price (BTC) | Ask amount (MAZA) |
 |---|---|---|---|
-| 0.00000003 | 51577.9 | 0.00000004 | 51900.8 |
+| 0.00000003 | 49144.3 | 0.00000004 | 51900.8 |
 | 0.00000002 | 223070 | 0.00000005 | 20003 |
 | 0.00000001 | 372421 | 0.00000006 | 32333.3 |
 |  |  | 0.00000007 | 1115.1 |
@@ -106,6 +106,7 @@ Top 5 bids (buy orders) and asks (sell orders).
 
 | Time (UTC) | Side | Price (BTC) | Amount (MAZA) |
 |---|---|---|---|
+| 2026-10-01 16:36 | sell | 0.00000003 | 2433.62350000 |
 | 2026-09-28 19:06 | sell | 0.00000003 | 33926.99996697 |
 | 2026-09-25 21:28 | sell | 0.00000003 | 8203.75483764 |
 | 2026-09-24 05:47 | sell | 0.00000003 | 18459.59538420 |
@@ -115,7 +116,6 @@ Top 5 bids (buy orders) and asks (sell orders).
 | 2026-08-13 17:06 | sell | 0.00000003 | 3185.00000000 |
 | 2026-08-07 08:19 | sell | 0.00000003 | 2512.00000000 |
 | 2026-08-05 10:23 | sell | 0.00000003 | 3178.00000000 |
-| 2026-08-03 16:35 | sell | 0.00000003 | 6568.00000000 |
 
 ## How to buy Mazacoin with Bitcoin
 
@@ -165,7 +165,7 @@ curl "https://altquick.com/api/v1/klines?market=BTC_MAZA&interval=1d&limit=90"
 
 Background facts were checked against each project's own sites and public sources. Nothing here is investment advice.
 
-Last updated: 2026-10-01 10:43 UTC from AltQuick's public API.
+Last updated: 2026-10-02 22:53 UTC from AltQuick's public API.
 
 ---
 

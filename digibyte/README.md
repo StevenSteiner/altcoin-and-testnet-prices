@@ -14,8 +14,8 @@ DigiByte is a 2014 UTXO blockchain with 15-second blocks and five mining algorit
 |---|---|
 | Last price | 0.00000004 BTC |
 | Best bid / ask | 0.00000005 / 0.00000006 BTC |
-| Trades, last 7 days | 6 |
-| Volume, last 7 days | 0.00059857 BTC |
+| Trades, last 7 days | 2 |
+| Volume, last 7 days | 0.00012420 BTC |
 | Last trade | 2026-09-30 00:05 UTC |
 
 ## About DigiByte
@@ -47,7 +47,7 @@ DigiByte addresses are not interchangeable with Bitcoin addresses; withdraw only
 
 | | |
 |---|---|
-| Change, 30 days | -20.0% |
+| Change, 30 days | -33.3% |
 | Change, 90 days | -20.0% |
 | Highest daily close | 0.00000007 BTC |
 | Lowest daily close | 0.00000003 BTC |
@@ -58,6 +58,7 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 
 | Date (UTC) | Close (BTC) | High | Low | Volume (DGB) |
 |---|---|---|---|---|
+| 2026-10-02 | 0.00000004 | 0.00000004 | 0.00000004 | 0 |
 | 2026-10-01 | 0.00000004 | 0.00000004 | 0.00000004 | 0 |
 | 2026-09-30 | 0.00000004 | 0.00000004 | 0.00000004 | 70.4492 |
 | 2026-09-29 | 0.00000004 | 0.00000004 | 0.00000004 | 0 |
@@ -87,7 +88,6 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 | 2026-09-05 | 0.00000005 | 0.00000007 | 0.00000005 | 445.908 |
 | 2026-09-04 | 0.00000006 | 0.00000007 | 0.00000006 | 20.119 |
 | 2026-09-03 | 0.00000007 | 0.00000007 | 0.00000006 | 80.0952 |
-| 2026-09-02 | 0.00000006 | 0.00000006 | 0.00000006 | 18 |
 
 </details>
 
@@ -166,7 +166,7 @@ curl "https://altquick.com/api/v1/klines?market=BTC_DGB&interval=1d&limit=90"
 
 Background facts were checked against each project's own sites and public sources. Nothing here is investment advice.
 
-Last updated: 2026-10-01 10:43 UTC from AltQuick's public API.
+Last updated: 2026-10-02 22:53 UTC from AltQuick's public API.
 
 ---
 

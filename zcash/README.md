@@ -13,7 +13,7 @@ Zcash is a 2016 Bitcoin-style coin with optional shielded payments using zero-kn
 | | |
 |---|---|
 | Last price | 0.01695198 BTC |
-| Best bid / ask | 0.00500000 / 0.01799999 BTC |
+| Best bid / ask | 0.00500000 / 0.01674285 BTC |
 | Trades, last 7 days | 4 |
 | Volume, last 7 days | 0.00038429 BTC |
 | Last trade | 2026-09-27 23:56 UTC |
@@ -57,6 +57,7 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 
 | Date (UTC) | Close (BTC) | High | Low | Volume (ZEC) |
 |---|---|---|---|---|
+| 2026-10-02 | 0.01695198 | 0.01695198 | 0.01695198 | 0 |
 | 2026-10-01 | 0.01695198 | 0.01695198 | 0.01695198 | 0 |
 | 2026-09-30 | 0.01695198 | 0.01695198 | 0.01695198 | 0 |
 | 2026-09-29 | 0.01695198 | 0.01695198 | 0.01695198 | 0 |
@@ -86,7 +87,6 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 | 2026-09-05 | 0.01126377 | 0.01126377 | 0.01126377 | 0 |
 | 2026-09-04 | 0.01126377 | 0.01126377 | 0.01126377 | 0 |
 | 2026-09-03 | 0.01126377 | 0.01126377 | 0.01126377 | 0.00029919 |
-| 2026-09-02 | 0.00973415 | 0.00973415 | 0.00973415 | 0 |
 
 </details>
 
@@ -96,8 +96,8 @@ Top 5 bids (buy orders) and asks (sell orders).
 
 | Bid price (BTC) | Bid amount (ZEC) | Ask price (BTC) | Ask amount (ZEC) |
 |---|---|---|---|
-| 0.00500000 | 0.100024 | 0.01799999 | 0.00263056 |
-| 0.00400001 | 0.0899998 | 0.01830614 | 0.0216384 |
+| 0.00500000 | 0.100024 | 0.01674285 | 0.0216384 |
+| 0.00400001 | 0.0899998 | 0.01799999 | 0.00263056 |
 | 0.00295001 | 0.0899997 | 0.01900000 | 0.01 |
 | 0.00040517 | 0.0999827 | 0.02100000 | 0.02 |
 | 0.00040516 | 0.5 | 0.89867000 | 8.07e-06 |
@@ -165,7 +165,7 @@ curl "https://altquick.com/api/v1/klines?market=BTC_ZEC&interval=1d&limit=90"
 
 Background facts were checked against each project's own sites and public sources. Nothing here is investment advice.
 
-Last updated: 2026-10-01 10:43 UTC from AltQuick's public API.
+Last updated: 2026-10-02 22:53 UTC from AltQuick's public API.
 
 ---
 

@@ -14,7 +14,7 @@ Monero is a CryptoNote-based privacy coin launched in April 2014 that hides send
 |---|---|
 | Last price | 0.00640000 BTC |
 | Best bid / ask | 0.00650000 / 0.00690000 BTC |
-| Trades, last 7 days | 10 |
+| Trades, last 7 days | 9 |
 | Volume, last 7 days | 0.00235824 BTC |
 | Last trade | 2026-09-29 18:56 UTC |
 
@@ -46,7 +46,7 @@ Because of its privacy, Monero has been delisted by many large exchanges. AltQui
 
 | | |
 |---|---|
-| Change, 30 days | +10.3% |
+| Change, 30 days | +4.2% |
 | Change, 90 days | +30.3% |
 | Highest daily close | 0.00718750 BTC |
 | Lowest daily close | 0.00491250 BTC |
@@ -57,6 +57,7 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 
 | Date (UTC) | Close (BTC) | High | Low | Volume (XMR) |
 |---|---|---|---|---|
+| 2026-10-02 | 0.00640000 | 0.00640000 | 0.00640000 | 0 |
 | 2026-10-01 | 0.00640000 | 0.00640000 | 0.00640000 | 0 |
 | 2026-09-30 | 0.00640000 | 0.00640000 | 0.00640000 | 0 |
 | 2026-09-29 | 0.00640000 | 0.00640000 | 0.00640000 | 0.206424 |
@@ -86,7 +87,6 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 | 2026-09-05 | 0.00625423 | 0.00625423 | 0.00590227 | 0.00100957 |
 | 2026-09-04 | 0.00592670 | 0.00620000 | 0.00592670 | 0.0333517 |
 | 2026-09-03 | 0.00593084 | 0.00593084 | 0.00593084 | 0.000145 |
-| 2026-09-02 | 0.00614340 | 0.00614340 | 0.00587555 | 0.000935 |
 
 </details>
 
@@ -97,7 +97,7 @@ Top 5 bids (buy orders) and asks (sell orders).
 | Bid price (BTC) | Bid amount (XMR) | Ask price (BTC) | Ask amount (XMR) |
 |---|---|---|---|
 | 0.00650000 | 7.7e-06 | 0.00690000 | 2.84968 |
-| 0.00640000 | 0.793583 | 0.00709486 | 0.102434 |
+| 0.00640000 | 0.793583 | 0.00703953 | 0.102434 |
 | 0.00630000 | 7.94e-06 | 0.00715000 | 0.00697623 |
 | 0.00620000 | 9.68e-06 | 0.00718750 | 1.96492 |
 | 0.00615000 | 0.0693285 | 0.00788750 | 2.66551 |
@@ -165,7 +165,7 @@ curl "https://altquick.com/api/v1/klines?market=BTC_XMR&interval=1d&limit=90"
 
 Background facts were checked against each project's own sites and public sources. Nothing here is investment advice.
 
-Last updated: 2026-10-01 10:43 UTC from AltQuick's public API.
+Last updated: 2026-10-02 22:53 UTC from AltQuick's public API.
 
 ---
 

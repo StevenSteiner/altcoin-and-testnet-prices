@@ -12,11 +12,11 @@ Bitcoin Blake2b is a 2026 hard fork of Bitcoin that switched proof of work from 
 
 | | |
 |---|---|
-| Last price | 0.00400000 BTC |
+| Last price | 0.00420000 BTC |
 | Best bid / ask | 0.00390000 / 0.00400000 BTC |
-| Trades, last 7 days | 0 |
-| Volume, last 7 days | 0.00000000 BTC |
-| Last trade | 2026-09-23 04:14 UTC |
+| Trades, last 7 days | 40 |
+| Volume, last 7 days | 0.00593461 BTC |
+| Last trade | 2026-10-02 18:59 UTC |
 
 ## About Bitcoin Blake2b
 
@@ -38,14 +38,14 @@ Anyone who held bitcoin before the split holds the same amount on this chain. Al
 
 - Website: [bitcoin-blake2b.org](https://bitcoin-blake2b.org/)
 
-## BTC2B/BTC price history, last 22 days
+## BTC2B/BTC price history, last 23 days
 
-![BTC2B/BTC daily closing price, last 22 days](price-90d.svg)
+![BTC2B/BTC daily closing price, last 23 days](price-90d.svg)
 
 | | |
 |---|---|
 | Change, 30 days | - |
-| Change, 22 days | - |
+| Change, 23 days | - |
 | Highest daily close | 0.00999700 BTC |
 | Lowest daily close | 0.00000000 BTC |
 
@@ -55,6 +55,7 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 
 | Date (UTC) | Close (BTC) | High | Low | Volume (BTC2B) |
 |---|---|---|---|---|
+| 2026-10-02 | 0.00420000 | 0.00420000 | 0.00140000 | 1.48397 |
 | 2026-10-01 | 0.00400000 | 0.00400000 | 0.00400000 | 0 |
 | 2026-09-30 | 0.00400000 | 0.00400000 | 0.00400000 | 0 |
 | 2026-09-29 | 0.00400000 | 0.00400000 | 0.00400000 | 0 |
@@ -86,26 +87,26 @@ Top 5 bids (buy orders) and asks (sell orders).
 
 | Bid price (BTC) | Bid amount (BTC2B) | Ask price (BTC) | Ask amount (BTC2B) |
 |---|---|---|---|
-| 0.00390000 | 1.283e-05 | 0.00400000 | 1.48361 |
-| 0.00380000 | 1.579e-05 | 0.00432287 | 0.00474438 |
-| 0.00370000 | 1.622e-05 | 0.00999700 | 0.000792 |
-| 0.00360000 | 1.667e-05 |  |  |
-| 0.00350000 | 1.429e-05 |  |  |
+| 0.00390000 | 1.283e-05 | 0.00400000 | 2.5e-05 |
+| 0.00380000 | 7.106e-05 | 0.00420000 | 2.5e-05 |
+| 0.00370000 | 1.622e-05 | 0.00432287 | 0.00474438 |
+| 0.00360000 | 0.00013612 | 0.00440000 | 2.5e-05 |
+| 0.00350000 | 1.429e-05 | 0.00460000 | 2.5e-05 |
 
 ## Recent trades
 
 | Time (UTC) | Side | Price (BTC) | Amount (BTC2B) |
 |---|---|---|---|
-| 2026-09-23 04:14 | buy | 0.00400000 | 0.00001250 |
-| 2026-09-22 15:45 | buy | 0.00060000 | 0.00009965 |
-| 2026-09-21 18:47 | buy | 0.00010000 | 0.00080001 |
-| 2026-09-21 18:37 | sell | 0.00020000 | 0.00050000 |
-| 2026-09-21 08:38 | buy | 0.00999800 | 0.00009902 |
-| 2026-09-21 08:37 | buy | 0.00999800 | 0.00599720 |
-| 2026-09-21 08:36 | buy | 0.00999700 | 0.00645294 |
-| 2026-09-18 22:33 | buy | 0.00999700 | 0.00000501 |
-| 2026-09-17 14:42 | sell | 0.00130000 | 0.00479231 |
-| 2026-09-17 12:02 | buy | 0.00999900 | 0.00000501 |
+| 2026-10-02 18:59 | sell | 0.00420000 | 0.00005238 |
+| 2026-10-02 17:49 | buy | 0.00420000 | 0.00002500 |
+| 2026-10-02 17:48 | buy | 0.00400000 | 0.00002500 |
+| 2026-10-02 17:48 | buy | 0.00400000 | 1.48301108 |
+| 2026-10-02 17:48 | buy | 0.00380000 | 0.00002500 |
+| 2026-10-02 17:48 | buy | 0.00360000 | 0.00002500 |
+| 2026-10-02 17:48 | buy | 0.00340000 | 0.00002500 |
+| 2026-10-02 17:48 | buy | 0.00320000 | 0.00002500 |
+| 2026-10-02 17:48 | buy | 0.00300000 | 0.00002500 |
+| 2026-10-02 17:48 | buy | 0.00280000 | 0.00002500 |
 
 ## How to buy Bitcoin Blake2b with Bitcoin
 
@@ -155,7 +156,7 @@ curl "https://altquick.com/api/v1/klines?market=BTC_BTC2B&interval=1d&limit=90"
 
 Background facts were checked against each project's own sites and public sources. Nothing here is investment advice.
 
-Last updated: 2026-10-01 10:43 UTC from AltQuick's public API.
+Last updated: 2026-10-02 22:53 UTC from AltQuick's public API.
 
 ---
 

@@ -12,9 +12,9 @@ Each market below has its own page with live prices, the order book and recent t
 
 | Market | Last price (BTC) | Trades, 7 days | Volume, 7 days (BTC) | Last trade (UTC) | Trade |
 |---|---|---|---|---|---|
-| [Bitcoin Signet (SBTC)](bitcoin-signet/) | 0.00000010 | 63 | 0.00018571 | 2026-10-01 | [Trade SBTC/BTC](https://altquick.com/market/bitcoin-signet-bitcoin/) |
-| [Bitcoin Testnet4 (TBTC4)](bitcoin-testnet4/) | 0.00000004 | 5 | 0.00000162 | 2026-09-28 | [Trade TBTC4/BTC](https://altquick.com/market/bitcoin-testnet4-bitcoin/) |
-| [Bitcoin Testnet3 (TBTC)](bitcoin-testnet3/) | 0.00000086 | 15 | 0.00008175 | 2026-10-01 | [Trade TBTC/BTC](https://altquick.com/market/bitcoin-testnet3-bitcoin/) |
+| [Bitcoin Signet (SBTC)](bitcoin-signet/) | 0.00000009 | 50 | 0.00013440 | 2026-10-02 | [Trade SBTC/BTC](https://altquick.com/market/bitcoin-signet-bitcoin/) |
+| [Bitcoin Testnet4 (TBTC4)](bitcoin-testnet4/) | 0.00000003 | 5 | 0.00000167 | 2026-10-02 | [Trade TBTC4/BTC](https://altquick.com/market/bitcoin-testnet4-bitcoin/) |
+| [Bitcoin Testnet3 (TBTC)](bitcoin-testnet3/) | 0.00000051 | 16 | 0.00008185 | 2026-10-02 | [Trade TBTC/BTC](https://altquick.com/market/bitcoin-testnet3-bitcoin/) |
 
 Guides: [How to get signet coins](bitcoin-signet/) · [How to get testnet4 coins](bitcoin-testnet4/) · [How to get testnet3 coins](bitcoin-testnet3/) · [Why testnet coin markets exist](testnet-markets.md)
 
@@ -22,27 +22,27 @@ Guides: [How to get signet coins](bitcoin-signet/) · [How to get testnet4 coins
 
 | Market | Last price (BTC) | Trades, 7 days | Volume, 7 days (BTC) | Last trade (UTC) | Trade |
 |---|---|---|---|---|---|
-| [42-coin (42)](42-coin/) | 0.35000000 | 8 | 0.00199792 | 2026-09-28 | [Trade 42/BTC](https://altquick.com/market/42-coin-bitcoin/) |
-| [Avalanche (AVAX)](avalanche/) | 0.00012167 | 14 | 0.00020886 | 2026-09-29 | [Trade AVAX/BTC](https://altquick.com/market/avalanche-bitcoin/) |
+| [42-coin (42)](42-coin/) | 0.35000000 | 7 | 0.00199792 | 2026-09-28 | [Trade 42/BTC](https://altquick.com/market/42-coin-bitcoin/) |
+| [Avalanche (AVAX)](avalanche/) | 0.00012167 | 12 | 0.00014700 | 2026-09-29 | [Trade AVAX/BTC](https://altquick.com/market/avalanche-bitcoin/) |
 | [Bitcoin Cash (BCH)](bitcoin-cash/) | 0.00338963 | 2 | 0.00000897 | 2026-09-28 | [Trade BCH/BTC](https://altquick.com/market/bitcoin-cash-bitcoin/) |
-| [Bitcoin Blake2b (BTC2B)](bitcoin-blake2b/) | 0.00400000 | 0 | 0.00000000 | 2026-09-23 | [Trade BTC2B/BTC](https://altquick.com/market/bitcoin-blake2b-bitcoin/) |
-| [Clamcoin (CLAM)](clamcoin/) | 0.00000105 | 79 | 0.00728648 | 2026-10-01 | [Trade CLAM/BTC](https://altquick.com/market/clamcoin-bitcoin/) |
-| [Curecoin (CURE)](curecoin/) | 0.00000006 | 0 | 0.00000000 | 2026-09-21 | [Trade CURE/BTC](https://altquick.com/market/curecoin-bitcoin/) |
+| [Bitcoin Blake2b (BTC2B)](bitcoin-blake2b/) | 0.00420000 | 40 | 0.00593461 | 2026-10-02 | [Trade BTC2B/BTC](https://altquick.com/market/bitcoin-blake2b-bitcoin/) |
+| [Clamcoin (CLAM)](clamcoin/) | 0.00000105 | 57 | 0.00672246 | 2026-10-02 | [Trade CLAM/BTC](https://altquick.com/market/clamcoin-bitcoin/) |
+| [Curecoin (CURE)](curecoin/) | 0.00000005 | 10 | 0.00007535 | 2026-10-01 | [Trade CURE/BTC](https://altquick.com/market/curecoin-bitcoin/) |
 | [Dash (DASH)](dash/) | 0.00066190 | 1 | 0.00002032 | 2026-09-29 | [Trade DASH/BTC](https://altquick.com/market/dash-bitcoin/) |
-| [DigiByte (DGB)](digibyte/) | 0.00000004 | 6 | 0.00059857 | 2026-09-30 | [Trade DGB/BTC](https://altquick.com/market/digibyte-bitcoin/) |
-| [Dogecoin (DOGE)](dogecoin/) | 0.00000106 | 52 | 0.00105855 | 2026-10-01 | [Trade DOGE/BTC](https://altquick.com/market/dogecoin-bitcoin/) |
-| [Florincoin (FLO)](florincoin/) | 0.00000002 | 3 | 0.00017999 | 2026-09-30 | [Trade FLO/BTC](https://altquick.com/market/florincoin-bitcoin/) |
+| [DigiByte (DGB)](digibyte/) | 0.00000004 | 2 | 0.00012420 | 2026-09-30 | [Trade DGB/BTC](https://altquick.com/market/digibyte-bitcoin/) |
+| [Dogecoin (DOGE)](dogecoin/) | 0.00000106 | 49 | 0.00105610 | 2026-10-01 | [Trade DOGE/BTC](https://altquick.com/market/dogecoin-bitcoin/) |
+| [Florincoin (FLO)](florincoin/) | 0.00000002 | 4 | 0.00018004 | 2026-10-01 | [Trade FLO/BTC](https://altquick.com/market/florincoin-bitcoin/) |
 | [Gapcoin (GAP)](gapcoin/) | 0.00000004 | 0 | 0.00000000 | 2026-09-13 | [Trade GAP/BTC](https://altquick.com/market/gapcoin-bitcoin/) |
-| [Litecoin (LTC)](litecoin/) | 0.00065503 | 24 | 0.01049456 | 2026-10-01 | [Trade LTC/BTC](https://altquick.com/market/litecoin-bitcoin/) |
-| [Mazacoin (MAZA)](mazacoin/) | 0.00000003 | 2 | 0.00126392 | 2026-09-28 | [Trade MAZA/BTC](https://altquick.com/market/mazacoin-bitcoin/) |
+| [Litecoin (LTC)](litecoin/) | 0.00065505 | 18 | 0.00311277 | 2026-10-02 | [Trade LTC/BTC](https://altquick.com/market/litecoin-bitcoin/) |
+| [Mazacoin (MAZA)](mazacoin/) | 0.00000003 | 2 | 0.00109080 | 2026-10-01 | [Trade MAZA/BTC](https://altquick.com/market/mazacoin-bitcoin/) |
 | [Namecoin (NMC)](namecoin/) | 0.00001333 | 0 | 0.00000000 | 2026-09-20 | [Trade NMC/BTC](https://altquick.com/market/namecoin-bitcoin/) |
 | [Particl (PART)](particl/) | 0.00000407 | 0 | 0.00000000 | 2026-09-21 | [Trade PART/BTC](https://altquick.com/market/particl-bitcoin/) |
 | [Peercoin (PPC)](peercoin/) | 0.00010000 | 6 | 0.00029010 | 2026-09-28 | [Trade PPC/BTC](https://altquick.com/market/peercoin-bitcoin/) |
 | [Qtum (QTUM)](qtum/) | 0.00000600 | 0 | 0.00000000 | 2026-09-04 | [Trade QTUM/BTC](https://altquick.com/market/qtum-bitcoin/) |
 | [Rhombus (RHOM)](rhombus/) | 0.00000004 | 0 | 0.00000000 | 2026-09-04 | [Trade RHOM/BTC](https://altquick.com/market/rhombus-bitcoin/) |
-| [Solana (SOL)](solana/) | 0.00140000 | 3 | 0.00001827 | 2026-09-28 | [Trade SOL/BTC](https://altquick.com/market/solana-bitcoin/) |
+| [Solana (SOL)](solana/) | 0.00145000 | 4 | 0.00009206 | 2026-10-01 | [Trade SOL/BTC](https://altquick.com/market/solana-bitcoin/) |
 | [Wownero (WOW)](wownero/) | 0.00000010 | 0 | 0.00000000 | 2026-09-11 | [Trade WOW/BTC](https://altquick.com/market/wownero-bitcoin/) |
-| [Monero (XMR)](monero/) | 0.00640000 | 10 | 0.00235824 | 2026-09-29 | [Trade XMR/BTC](https://altquick.com/market/monero-bitcoin/) |
+| [Monero (XMR)](monero/) | 0.00640000 | 9 | 0.00235824 | 2026-09-29 | [Trade XMR/BTC](https://altquick.com/market/monero-bitcoin/) |
 | [Zcash (ZEC)](zcash/) | 0.01695198 | 4 | 0.00038429 | 2026-09-27 | [Trade ZEC/BTC](https://altquick.com/market/zcash-bitcoin/) |
 
 ## What each coin is
@@ -72,7 +72,7 @@ Guides: [How to get signet coins](bitcoin-signet/) · [How to get testnet4 coins
 
 Trade counts and volume are computed from AltQuick's public trades API ([docs](https://github.com/AltQuick-com/api)). AltQuick's trading fee is 1%.
 
-Last updated: 2026-10-01 10:43 UTC
+Last updated: 2026-10-02 22:53 UTC
 
 ## How these pages are built
 

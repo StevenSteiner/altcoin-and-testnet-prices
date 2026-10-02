@@ -14,9 +14,9 @@ FLO, originally Florincoin, is a 2013 Scrypt coin that lets every transaction ca
 |---|---|
 | Last price | 0.00000002 BTC |
 | Best bid / ask | 0.00000002 / 0.00000003 BTC |
-| Trades, last 7 days | 3 |
-| Volume, last 7 days | 0.00017999 BTC |
-| Last trade | 2026-09-30 21:32 UTC |
+| Trades, last 7 days | 4 |
+| Volume, last 7 days | 0.00018004 BTC |
+| Last trade | 2026-10-01 15:14 UTC |
 
 ## About Florincoin
 
@@ -55,7 +55,8 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 
 | Date (UTC) | Close (BTC) | High | Low | Volume (FLO) |
 |---|---|---|---|---|
-| 2026-10-01 | 0.00000002 | 0.00000002 | 0.00000002 | 0 |
+| 2026-10-02 | 0.00000002 | 0.00000002 | 0.00000002 | 0 |
+| 2026-10-01 | 0.00000002 | 0.00000002 | 0.00000002 | 2.8 |
 | 2026-09-30 | 0.00000002 | 0.00000002 | 0.00000002 | 9000 |
 | 2026-09-29 | 0.00000002 | 0.00000002 | 0.00000002 | 0 |
 | 2026-09-28 | 0.00000002 | 0.00000002 | 0.00000002 | 0 |
@@ -84,7 +85,6 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 | 2026-09-05 | 0.00000002 | 0.00000002 | 0.00000002 | 0 |
 | 2026-09-04 | 0.00000002 | 0.00000002 | 0.00000002 | 8.19948 |
 | 2026-09-03 | 0.00000002 | 0.00000002 | 0.00000002 | 0 |
-| 2026-09-02 | 0.00000002 | 0.00000002 | 0.00000002 | 0 |
 
 </details>
 
@@ -94,7 +94,7 @@ Top 5 bids (buy orders) and asks (sell orders).
 
 | Bid price (BTC) | Bid amount (FLO) | Ask price (BTC) | Ask amount (FLO) |
 |---|---|---|---|
-| 0.00000002 | 15988.4 | 0.00000003 | 3563 |
+| 0.00000002 | 15985.6 | 0.00000003 | 3563 |
 | 0.00000001 | 131438 | 0.00000004 | 3084.99 |
 |  |  | 0.00000005 | 34.5 |
 |  |  | 0.00000006 | 4013 |
@@ -104,6 +104,7 @@ Top 5 bids (buy orders) and asks (sell orders).
 
 | Time (UTC) | Side | Price (BTC) | Amount (FLO) |
 |---|---|---|---|
+| 2026-10-01 15:14 | sell | 0.00000002 | 2.80000000 |
 | 2026-09-30 21:32 | sell | 0.00000002 | 660.59533035 |
 | 2026-09-30 21:32 | sell | 0.00000002 | 5086.00000001 |
 | 2026-09-30 21:32 | sell | 0.00000002 | 3253.40466964 |
@@ -113,7 +114,6 @@ Top 5 bids (buy orders) and asks (sell orders).
 | 2026-08-24 19:58 | sell | 0.00000002 | 83.71098552 |
 | 2026-08-23 23:13 | sell | 0.00000002 | 1556.18486558 |
 | 2026-08-11 17:36 | sell | 0.00000002 | 86.10000000 |
-| 2026-08-04 16:37 | buy | 0.00000003 | 2.00000000 |
 
 ## How to buy Florincoin with Bitcoin
 
@@ -163,7 +163,7 @@ curl "https://altquick.com/api/v1/klines?market=BTC_FLO&interval=1d&limit=90"
 
 Background facts were checked against each project's own sites and public sources. Nothing here is investment advice.
 
-Last updated: 2026-10-01 10:43 UTC from AltQuick's public API.
+Last updated: 2026-10-02 22:53 UTC from AltQuick's public API.
 
 ---
 
