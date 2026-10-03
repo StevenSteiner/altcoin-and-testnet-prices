@@ -12,11 +12,11 @@ Curecoin rewards people who run Folding@home disease-research simulations and se
 
 | | |
 |---|---|
-| Last price | 0.00000005 BTC |
+| Last price | 0.00000006 BTC |
 | Best bid / ask | 0.00000006 / 0.00000009 BTC |
-| Trades, last 7 days | 10 |
-| Volume, last 7 days | 0.00007535 BTC |
-| Last trade | 2026-10-01 16:21 UTC |
+| Trades, last 7 days | 11 |
+| Volume, last 7 days | 0.00008123 BTC |
+| Last trade | 2026-10-03 09:34 UTC |
 
 ## About Curecoin
 
@@ -46,8 +46,8 @@ To earn CURE rather than buy it, install Folding@home and fold for Team Curecoin
 
 | | |
 |---|---|
-| Change, 30 days | -77.3% |
-| Change, 90 days | -28.6% |
+| Change, 30 days | -80.0% |
+| Change, 90 days | -14.3% |
 | Highest daily close | 0.00000087 BTC |
 | Lowest daily close | 0.00000005 BTC |
 
@@ -57,6 +57,7 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 
 | Date (UTC) | Close (BTC) | High | Low | Volume (CURE) |
 |---|---|---|---|---|
+| 2026-10-03 | 0.00000006 | 0.00000006 | 0.00000006 | 98 |
 | 2026-10-02 | 0.00000005 | 0.00000005 | 0.00000005 | 0 |
 | 2026-10-01 | 0.00000005 | 0.00000010 | 0.00000005 | 1168 |
 | 2026-09-30 | 0.00000006 | 0.00000006 | 0.00000006 | 0 |
@@ -86,7 +87,6 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 | 2026-09-06 | 0.00000010 | 0.00000010 | 0.00000010 | 0 |
 | 2026-09-05 | 0.00000010 | 0.00000010 | 0.00000010 | 0 |
 | 2026-09-04 | 0.00000010 | 0.00000029 | 0.00000010 | 98 |
-| 2026-09-03 | 0.00000030 | 0.00000030 | 0.00000030 | 48 |
 
 </details>
 
@@ -96,7 +96,7 @@ Top 5 bids (buy orders) and asks (sell orders).
 
 | Bid price (BTC) | Bid amount (CURE) | Ask price (BTC) | Ask amount (CURE) |
 |---|---|---|---|
-| 0.00000006 | 1204.5 | 0.00000009 | 2.17778 |
+| 0.00000006 | 1106.5 | 0.00000009 | 2.17778 |
 | 0.00000005 | 5000 | 0.00000011 | 5 |
 | 0.00000004 | 19484.2 | 0.00000014 | 7.35714 |
 | 0.00000003 | 99479 | 0.00000026 | 247.795 |
@@ -106,6 +106,7 @@ Top 5 bids (buy orders) and asks (sell orders).
 
 | Time (UTC) | Side | Price (BTC) | Amount (CURE) |
 |---|---|---|---|
+| 2026-10-03 09:34 | sell | 0.00000006 | 98.00000000 |
 | 2026-10-01 16:21 | sell | 0.00000005 | 250.29761904 |
 | 2026-10-01 16:21 | sell | 0.00000005 | 30.00000000 |
 | 2026-10-01 16:21 | sell | 0.00000006 | 266.66666667 |
@@ -114,7 +115,6 @@ Top 5 bids (buy orders) and asks (sell orders).
 | 2026-10-01 16:21 | sell | 0.00000008 | 156.25000000 |
 | 2026-10-01 16:21 | sell | 0.00000010 | 5.00000000 |
 | 2026-10-01 16:21 | sell | 0.00000010 | 6.00000000 |
-| 2026-10-01 16:21 | sell | 0.00000010 | 2.00000000 |
 | 2026-10-01 16:21 | sell | 0.00000010 | 2.00000000 |
 
 ## How to buy Curecoin with Bitcoin
@@ -165,7 +165,7 @@ curl "https://altquick.com/api/v1/klines?market=BTC_CURE&interval=1d&limit=90"
 
 Background facts were checked against each project's own sites and public sources. Nothing here is investment advice.
 
-Last updated: 2026-10-02 22:53 UTC from AltQuick's public API.
+Last updated: 2026-10-03 10:43 UTC from AltQuick's public API.
 
 ---
 

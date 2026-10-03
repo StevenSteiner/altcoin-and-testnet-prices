@@ -13,7 +13,7 @@ Particl is a pure proof-of-stake privacy coin on a Bitcoin Core codebase, built 
 | | |
 |---|---|
 | Last price | 0.00000407 BTC |
-| Best bid / ask | 0.00000061 / 0.00000407 BTC |
+| Best bid / ask | 0.00000062 / 0.00000407 BTC |
 | Trades, last 7 days | 0 |
 | Volume, last 7 days | 0.00000000 BTC |
 | Last trade | 2026-09-21 07:58 UTC |
@@ -57,6 +57,7 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 
 | Date (UTC) | Close (BTC) | High | Low | Volume (PART) |
 |---|---|---|---|---|
+| 2026-10-03 | 0.00000407 | 0.00000407 | 0.00000407 | 0 |
 | 2026-10-02 | 0.00000407 | 0.00000407 | 0.00000407 | 0 |
 | 2026-10-01 | 0.00000407 | 0.00000407 | 0.00000407 | 0 |
 | 2026-09-30 | 0.00000407 | 0.00000407 | 0.00000407 | 0 |
@@ -86,7 +87,6 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 | 2026-09-06 | 0.00000257 | 0.00000257 | 0.00000081 | 353.636 |
 | 2026-09-05 | 0.00000081 | 0.00000081 | 0.00000081 | 0 |
 | 2026-09-04 | 0.00000081 | 0.00000081 | 0.00000081 | 0.518519 |
-| 2026-09-03 | 0.00000080 | 0.00000080 | 0.00000080 | 0 |
 
 </details>
 
@@ -96,8 +96,8 @@ Top 5 bids (buy orders) and asks (sell orders).
 
 | Bid price (BTC) | Bid amount (PART) | Ask price (BTC) | Ask amount (PART) |
 |---|---|---|---|
-| 0.00000061 | 29.9344 | 0.00000407 | 2130.32 |
-| 0.00000060 | 333.317 | 0.00000458 | 212.321 |
+| 0.00000062 | 322.565 | 0.00000407 | 2130.32 |
+| 0.00000061 | 29.9344 | 0.00000458 | 212.321 |
 | 0.00000059 | 22.0339 | 0.00000538 | 249.494 |
 | 0.00000040 | 32.5 | 0.00000638 | 280.842 |
 | 0.00000029 | 44.8276 | 0.00000758 | 278.193 |
@@ -165,7 +165,7 @@ curl "https://altquick.com/api/v1/klines?market=BTC_PART&interval=1d&limit=90"
 
 Background facts were checked against each project's own sites and public sources. Nothing here is investment advice.
 
-Last updated: 2026-10-02 22:53 UTC from AltQuick's public API.
+Last updated: 2026-10-03 10:43 UTC from AltQuick's public API.
 
 ---
 

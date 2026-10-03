@@ -28,7 +28,7 @@ Finished testing? Sell the spare coins back on the same market so the next devel
 |---|---|
 | Last price | 0.00000051 BTC |
 | Best bid / ask | 0.00000051 / 0.00000084 BTC |
-| Trades, last 7 days | 16 |
+| Trades, last 7 days | 15 |
 | Volume, last 7 days | 0.00008185 BTC |
 | Last trade | 2026-10-02 01:18 UTC |
 
@@ -57,7 +57,7 @@ curl "https://altquick.com/api/v1/klines?market=BTC_TBTC&interval=1d&limit=90"
 
 [See every AltQuick market](../)
 
-Last updated: 2026-10-02 22:53 UTC from AltQuick's public API.
+Last updated: 2026-10-03 10:43 UTC from AltQuick's public API.
 
 ---
 

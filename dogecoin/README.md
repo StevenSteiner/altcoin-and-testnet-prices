@@ -46,7 +46,7 @@ Dogecoin addresses usually start with D; withdraw only to a DOGE wallet.
 
 | | |
 |---|---|
-| Change, 30 days | -0.9% |
+| Change, 30 days | -19.1% |
 | Change, 90 days | -25.9% |
 | Highest daily close | 0.00000145 BTC |
 | Lowest daily close | 0.00000105 BTC |
@@ -57,6 +57,7 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 
 | Date (UTC) | Close (BTC) | High | Low | Volume (DOGE) |
 |---|---|---|---|---|
+| 2026-10-03 | 0.00000106 | 0.00000106 | 0.00000106 | 0 |
 | 2026-10-02 | 0.00000106 | 0.00000106 | 0.00000106 | 0 |
 | 2026-10-01 | 0.00000106 | 0.00000106 | 0.00000106 | 4.81 |
 | 2026-09-30 | 0.00000120 | 0.00000120 | 0.00000120 | 0 |
@@ -86,7 +87,6 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 | 2026-09-06 | 0.00000105 | 0.00000105 | 0.00000105 | 1.05 |
 | 2026-09-05 | 0.00000105 | 0.00000107 | 0.00000105 | 3447.91 |
 | 2026-09-04 | 0.00000107 | 0.00000111 | 0.00000107 | 940.031 |
-| 2026-09-03 | 0.00000131 | 0.00000131 | 0.00000131 | 1.0916 |
 
 </details>
 
@@ -165,7 +165,7 @@ curl "https://altquick.com/api/v1/klines?market=BTC_DOGE&interval=1d&limit=90"
 
 Background facts were checked against each project's own sites and public sources. Nothing here is investment advice.
 
-Last updated: 2026-10-02 22:53 UTC from AltQuick's public API.
+Last updated: 2026-10-03 10:43 UTC from AltQuick's public API.
 
 ---
 

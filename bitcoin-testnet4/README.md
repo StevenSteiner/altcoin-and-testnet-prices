@@ -26,16 +26,17 @@ Finished testing? Sell the spare coins back on the same market so the next devel
 
 | | |
 |---|---|
-| Last price | 0.00000003 BTC |
+| Last price | 0.00000004 BTC |
 | Best bid / ask | 0.00000003 / 0.00000004 BTC |
-| Trades, last 7 days | 5 |
-| Volume, last 7 days | 0.00000167 BTC |
-| Last trade | 2026-10-02 14:45 UTC |
+| Trades, last 7 days | 6 |
+| Volume, last 7 days | 0.00000187 BTC |
+| Last trade | 2026-10-03 02:32 UTC |
 
 ## Recent trades
 
 | Time (UTC) | Side | Price (BTC) | Amount (TBTC4) |
 |---|---|---|---|
+| 2026-10-03 02:32 | buy | 0.00000004 | 5.00000000 |
 | 2026-10-02 14:45 | sell | 0.00000003 | 7.00000000 |
 | 2026-09-28 17:22 | buy | 0.00000004 | 21.00000000 |
 | 2026-09-28 05:12 | sell | 0.00000003 | 7.32333333 |
@@ -45,7 +46,6 @@ Finished testing? Sell the spare coins back on the same market so the next devel
 | 2026-09-21 17:51 | buy | 0.00000005 | 97.00000000 |
 | 2026-09-20 22:39 | buy | 0.00000005 | 50.00000000 |
 | 2026-09-20 18:48 | buy | 0.00000005 | 4.20000000 |
-| 2026-09-20 02:21 | buy | 0.00000005 | 9863.00000000 |
 
 ## Get this data yourself
 
@@ -57,7 +57,7 @@ curl "https://altquick.com/api/v1/klines?market=BTC_TBTC4&interval=1d&limit=90"
 
 [See every AltQuick market](../)
 
-Last updated: 2026-10-02 22:53 UTC from AltQuick's public API.
+Last updated: 2026-10-03 10:43 UTC from AltQuick's public API.
 
 ---
 

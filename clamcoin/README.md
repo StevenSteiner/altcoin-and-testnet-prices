@@ -12,11 +12,11 @@ Clams (CLAM) is a proof-of-stake coin that was airdropped in 2014 to every Bitco
 
 | | |
 |---|---|
-| Last price | 0.00000105 BTC |
-| Best bid / ask | 0.00000086 / 0.00000104 BTC |
-| Trades, last 7 days | 57 |
-| Volume, last 7 days | 0.00672246 BTC |
-| Last trade | 2026-10-02 22:47 UTC |
+| Last price | 0.00000090 BTC |
+| Best bid / ask | 0.00000090 / 0.00000103 BTC |
+| Trades, last 7 days | 58 |
+| Volume, last 7 days | 0.00672713 BTC |
+| Last trade | 2026-10-03 02:30 UTC |
 
 ## About Clamcoin
 
@@ -46,8 +46,8 @@ CLAM became the house currency of the dice site Just-Dice in late 2014.
 
 | | |
 |---|---|
-| Change, 30 days | +0.0% |
-| Change, 90 days | -11.8% |
+| Change, 30 days | -23.7% |
+| Change, 90 days | -9.1% |
 | Highest daily close | 0.00000135 BTC |
 | Lowest daily close | 0.00000085 BTC |
 
@@ -57,6 +57,7 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 
 | Date (UTC) | Close (BTC) | High | Low | Volume (CLAM) |
 |---|---|---|---|---|
+| 2026-10-03 | 0.00000090 | 0.00000090 | 0.00000090 | 5.19 |
 | 2026-10-02 | 0.00000105 | 0.00000105 | 0.00000085 | 1097.21 |
 | 2026-10-01 | 0.00000105 | 0.00000105 | 0.00000084 | 3510.24 |
 | 2026-09-30 | 0.00000085 | 0.00000085 | 0.00000085 | 1426.3 |
@@ -86,7 +87,6 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 | 2026-09-06 | 0.00000108 | 0.00000108 | 0.00000108 | 0 |
 | 2026-09-05 | 0.00000108 | 0.00000108 | 0.00000108 | 3.18 |
 | 2026-09-04 | 0.00000108 | 0.00000121 | 0.00000108 | 424.968 |
-| 2026-09-03 | 0.00000118 | 0.00000118 | 0.00000114 | 1.55305 |
 
 </details>
 
@@ -96,16 +96,17 @@ Top 5 bids (buy orders) and asks (sell orders).
 
 | Bid price (BTC) | Bid amount (CLAM) | Ask price (BTC) | Ask amount (CLAM) |
 |---|---|---|---|
-| 0.00000086 | 473.814 | 0.00000104 | 484.75 |
-| 0.00000085 | 1895.28 | 0.00000105 | 808.868 |
-| 0.00000084 | 3757.19 | 0.00000106 | 6352.89 |
-| 0.00000083 | 2000 | 0.00000107 | 1.5514 |
-| 0.00000080 | 4.8375 | 0.00000109 | 13.1743 |
+| 0.00000090 | 9.61 | 0.00000103 | 0.16 |
+| 0.00000089 | 19.2135 | 0.00000104 | 4.14 |
+| 0.00000087 | 29.2874 | 0.00000105 | 808.868 |
+| 0.00000086 | 35 | 0.00000106 | 6352.89 |
+| 0.00000085 | 1895.28 | 0.00000107 | 1.5514 |
 
 ## Recent trades
 
 | Time (UTC) | Side | Price (BTC) | Amount (CLAM) |
 |---|---|---|---|
+| 2026-10-03 02:30 | sell | 0.00000090 | 5.19000000 |
 | 2026-10-02 22:47 | buy | 0.00000105 | 71.57142857 |
 | 2026-10-02 22:47 | buy | 0.00000104 | 13.20192308 |
 | 2026-10-02 22:46 | buy | 0.00000103 | 32.70873786 |
@@ -115,7 +116,6 @@ Top 5 bids (buy orders) and asks (sell orders).
 | 2026-10-02 22:46 | buy | 0.00000098 | 14.00000000 |
 | 2026-10-02 14:46 | sell | 0.00000085 | 0.14000000 |
 | 2026-10-02 00:51 | sell | 0.00000085 | 104.58136193 |
-| 2026-10-02 00:51 | sell | 0.00000085 | 500.00000000 |
 
 ## How to buy Clamcoin with Bitcoin
 
@@ -165,7 +165,7 @@ curl "https://altquick.com/api/v1/klines?market=BTC_CLAM&interval=1d&limit=90"
 
 Background facts were checked against each project's own sites and public sources. Nothing here is investment advice.
 
-Last updated: 2026-10-02 22:53 UTC from AltQuick's public API.
+Last updated: 2026-10-03 10:43 UTC from AltQuick's public API.
 
 ---
 

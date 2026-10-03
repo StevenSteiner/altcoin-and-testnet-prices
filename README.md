@@ -12,9 +12,9 @@ Each market below has its own page with live prices, the order book and recent t
 
 | Market | Last price (BTC) | Trades, 7 days | Volume, 7 days (BTC) | Last trade (UTC) | Trade |
 |---|---|---|---|---|---|
-| [Bitcoin Signet (SBTC)](bitcoin-signet/) | 0.00000009 | 50 | 0.00013440 | 2026-10-02 | [Trade SBTC/BTC](https://altquick.com/market/bitcoin-signet-bitcoin/) |
-| [Bitcoin Testnet4 (TBTC4)](bitcoin-testnet4/) | 0.00000003 | 5 | 0.00000167 | 2026-10-02 | [Trade TBTC4/BTC](https://altquick.com/market/bitcoin-testnet4-bitcoin/) |
-| [Bitcoin Testnet3 (TBTC)](bitcoin-testnet3/) | 0.00000051 | 16 | 0.00008185 | 2026-10-02 | [Trade TBTC/BTC](https://altquick.com/market/bitcoin-testnet3-bitcoin/) |
+| [Bitcoin Signet (SBTC)](bitcoin-signet/) | 0.00000010 | 58 | 0.00014753 | 2026-10-03 | [Trade SBTC/BTC](https://altquick.com/market/bitcoin-signet-bitcoin/) |
+| [Bitcoin Testnet4 (TBTC4)](bitcoin-testnet4/) | 0.00000004 | 6 | 0.00000187 | 2026-10-03 | [Trade TBTC4/BTC](https://altquick.com/market/bitcoin-testnet4-bitcoin/) |
+| [Bitcoin Testnet3 (TBTC)](bitcoin-testnet3/) | 0.00000051 | 15 | 0.00008185 | 2026-10-02 | [Trade TBTC/BTC](https://altquick.com/market/bitcoin-testnet3-bitcoin/) |
 
 Guides: [How to get signet coins](bitcoin-signet/) · [How to get testnet4 coins](bitcoin-testnet4/) · [How to get testnet3 coins](bitcoin-testnet3/) · [Why testnet coin markets exist](testnet-markets.md)
 
@@ -23,13 +23,13 @@ Guides: [How to get signet coins](bitcoin-signet/) · [How to get testnet4 coins
 | Market | Last price (BTC) | Trades, 7 days | Volume, 7 days (BTC) | Last trade (UTC) | Trade |
 |---|---|---|---|---|---|
 | [42-coin (42)](42-coin/) | 0.35000000 | 7 | 0.00199792 | 2026-09-28 | [Trade 42/BTC](https://altquick.com/market/42-coin-bitcoin/) |
-| [Avalanche (AVAX)](avalanche/) | 0.00012167 | 12 | 0.00014700 | 2026-09-29 | [Trade AVAX/BTC](https://altquick.com/market/avalanche-bitcoin/) |
+| [Avalanche (AVAX)](avalanche/) | 0.00012167 | 10 | 0.00012594 | 2026-09-29 | [Trade AVAX/BTC](https://altquick.com/market/avalanche-bitcoin/) |
 | [Bitcoin Cash (BCH)](bitcoin-cash/) | 0.00338963 | 2 | 0.00000897 | 2026-09-28 | [Trade BCH/BTC](https://altquick.com/market/bitcoin-cash-bitcoin/) |
 | [Bitcoin Blake2b (BTC2B)](bitcoin-blake2b/) | 0.00420000 | 40 | 0.00593461 | 2026-10-02 | [Trade BTC2B/BTC](https://altquick.com/market/bitcoin-blake2b-bitcoin/) |
-| [Clamcoin (CLAM)](clamcoin/) | 0.00000105 | 57 | 0.00672246 | 2026-10-02 | [Trade CLAM/BTC](https://altquick.com/market/clamcoin-bitcoin/) |
-| [Curecoin (CURE)](curecoin/) | 0.00000005 | 10 | 0.00007535 | 2026-10-01 | [Trade CURE/BTC](https://altquick.com/market/curecoin-bitcoin/) |
+| [Clamcoin (CLAM)](clamcoin/) | 0.00000090 | 58 | 0.00672713 | 2026-10-03 | [Trade CLAM/BTC](https://altquick.com/market/clamcoin-bitcoin/) |
+| [Curecoin (CURE)](curecoin/) | 0.00000006 | 11 | 0.00008123 | 2026-10-03 | [Trade CURE/BTC](https://altquick.com/market/curecoin-bitcoin/) |
 | [Dash (DASH)](dash/) | 0.00066190 | 1 | 0.00002032 | 2026-09-29 | [Trade DASH/BTC](https://altquick.com/market/dash-bitcoin/) |
-| [DigiByte (DGB)](digibyte/) | 0.00000004 | 2 | 0.00012420 | 2026-09-30 | [Trade DGB/BTC](https://altquick.com/market/digibyte-bitcoin/) |
+| [DigiByte (DGB)](digibyte/) | 0.00000004 | 1 | 0.00000281 | 2026-09-30 | [Trade DGB/BTC](https://altquick.com/market/digibyte-bitcoin/) |
 | [Dogecoin (DOGE)](dogecoin/) | 0.00000106 | 49 | 0.00105610 | 2026-10-01 | [Trade DOGE/BTC](https://altquick.com/market/dogecoin-bitcoin/) |
 | [Florincoin (FLO)](florincoin/) | 0.00000002 | 4 | 0.00018004 | 2026-10-01 | [Trade FLO/BTC](https://altquick.com/market/florincoin-bitcoin/) |
 | [Gapcoin (GAP)](gapcoin/) | 0.00000004 | 0 | 0.00000000 | 2026-09-13 | [Trade GAP/BTC](https://altquick.com/market/gapcoin-bitcoin/) |
@@ -72,7 +72,7 @@ Guides: [How to get signet coins](bitcoin-signet/) · [How to get testnet4 coins
 
 Trade counts and volume are computed from AltQuick's public trades API ([docs](https://github.com/AltQuick-com/api)). AltQuick's trading fee is 1%.
 
-Last updated: 2026-10-02 22:53 UTC
+Last updated: 2026-10-03 10:43 UTC
 
 ## How these pages are built
 

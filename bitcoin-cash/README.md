@@ -57,6 +57,7 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 
 | Date (UTC) | Close (BTC) | High | Low | Volume (BCH) |
 |---|---|---|---|---|
+| 2026-10-03 | 0.00338963 | 0.00338963 | 0.00338963 | 0 |
 | 2026-10-02 | 0.00338963 | 0.00338963 | 0.00338963 | 0 |
 | 2026-10-01 | 0.00338963 | 0.00338963 | 0.00338963 | 0 |
 | 2026-09-30 | 0.00338963 | 0.00338963 | 0.00338963 | 0 |
@@ -86,7 +87,6 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 | 2026-09-06 | 0.00350000 | 0.00350000 | 0.00350000 | 0 |
 | 2026-09-05 | 0.00350000 | 0.00350000 | 0.00350000 | 0 |
 | 2026-09-04 | 0.00350000 | 0.00350000 | 0.00350000 | 0.00424483 |
-| 2026-09-03 | 0.00350000 | 0.00350000 | 0.00350000 | 0 |
 
 </details>
 
@@ -97,7 +97,7 @@ Top 5 bids (buy orders) and asks (sell orders).
 | Bid price (BTC) | Bid amount (BCH) | Ask price (BTC) | Ask amount (BCH) |
 |---|---|---|---|
 | 0.00275000 | 0.5 | 0.00400000 | 0.5 |
-| 0.00270000 | 0.02 | 0.00401843 | 0.0216923 |
+| 0.00270000 | 0.02 | 0.00404709 | 0.0216923 |
 | 0.00101600 | 0.00684056 | 0.00580000 | 0.104833 |
 | 0.00060000 | 0.0164333 | 0.01250000 | 0.0602 |
 | 0.00012500 | 0.00144 | 0.02000000 | 5e-06 |
@@ -165,7 +165,7 @@ curl "https://altquick.com/api/v1/klines?market=BTC_BCH&interval=1d&limit=90"
 
 Background facts were checked against each project's own sites and public sources. Nothing here is investment advice.
 
-Last updated: 2026-10-02 22:53 UTC from AltQuick's public API.
+Last updated: 2026-10-03 10:43 UTC from AltQuick's public API.
 
 ---
 

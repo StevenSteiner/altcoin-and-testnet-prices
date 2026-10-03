@@ -38,14 +38,14 @@ Anyone who held bitcoin before the split holds the same amount on this chain. Al
 
 - Website: [bitcoin-blake2b.org](https://bitcoin-blake2b.org/)
 
-## BTC2B/BTC price history, last 23 days
+## BTC2B/BTC price history, last 24 days
 
-![BTC2B/BTC daily closing price, last 23 days](price-90d.svg)
+![BTC2B/BTC daily closing price, last 24 days](price-90d.svg)
 
 | | |
 |---|---|
 | Change, 30 days | - |
-| Change, 23 days | - |
+| Change, 24 days | - |
 | Highest daily close | 0.00999700 BTC |
 | Lowest daily close | 0.00000000 BTC |
 
@@ -55,6 +55,7 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 
 | Date (UTC) | Close (BTC) | High | Low | Volume (BTC2B) |
 |---|---|---|---|---|
+| 2026-10-03 | 0.00420000 | 0.00420000 | 0.00420000 | 0 |
 | 2026-10-02 | 0.00420000 | 0.00420000 | 0.00140000 | 1.48397 |
 | 2026-10-01 | 0.00400000 | 0.00400000 | 0.00400000 | 0 |
 | 2026-09-30 | 0.00400000 | 0.00400000 | 0.00400000 | 0 |
@@ -87,11 +88,11 @@ Top 5 bids (buy orders) and asks (sell orders).
 
 | Bid price (BTC) | Bid amount (BTC2B) | Ask price (BTC) | Ask amount (BTC2B) |
 |---|---|---|---|
-| 0.00390000 | 1.283e-05 | 0.00400000 | 2.5e-05 |
+| 0.00390000 | 0.00021027 | 0.00400000 | 2.5e-05 |
 | 0.00380000 | 7.106e-05 | 0.00420000 | 2.5e-05 |
-| 0.00370000 | 1.622e-05 | 0.00432287 | 0.00474438 |
-| 0.00360000 | 0.00013612 | 0.00440000 | 2.5e-05 |
-| 0.00350000 | 1.429e-05 | 0.00460000 | 2.5e-05 |
+| 0.00370000 | 1.622e-05 | 0.00440000 | 2.5e-05 |
+| 0.00360000 | 0.00013612 | 0.00460000 | 2.5e-05 |
+| 0.00350000 | 4.001e-05 | 0.00480000 | 2.5e-05 |
 
 ## Recent trades
 
@@ -156,7 +157,7 @@ curl "https://altquick.com/api/v1/klines?market=BTC_BTC2B&interval=1d&limit=90"
 
 Background facts were checked against each project's own sites and public sources. Nothing here is investment advice.
 
-Last updated: 2026-10-02 22:53 UTC from AltQuick's public API.
+Last updated: 2026-10-03 10:43 UTC from AltQuick's public API.
 
 ---
 

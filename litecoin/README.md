@@ -57,6 +57,7 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 
 | Date (UTC) | Close (BTC) | High | Low | Volume (LTC) |
 |---|---|---|---|---|
+| 2026-10-03 | 0.00065505 | 0.00065505 | 0.00065505 | 0 |
 | 2026-10-02 | 0.00065505 | 0.00065505 | 0.00065505 | 0.3 |
 | 2026-10-01 | 0.00065503 | 0.00071000 | 0.00065502 | 0.64467 |
 | 2026-09-30 | 0.00072837 | 0.00072837 | 0.00072837 | 0 |
@@ -86,7 +87,6 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 | 2026-09-06 | 0.00062612 | 0.00062612 | 0.00062612 | 0 |
 | 2026-09-05 | 0.00062612 | 0.00062612 | 0.00062612 | 0 |
 | 2026-09-04 | 0.00062612 | 0.00062620 | 0.00062612 | 1.79241 |
-| 2026-09-03 | 0.00062612 | 0.00062612 | 0.00062612 | 0 |
 
 </details>
 
@@ -96,11 +96,11 @@ Top 5 bids (buy orders) and asks (sell orders).
 
 | Bid price (BTC) | Bid amount (LTC) | Ask price (BTC) | Ask amount (LTC) |
 |---|---|---|---|
-| 0.00065505 | 5.31249 | 0.00079999 | 0.00099336 |
+| 0.00065505 | 5.3151 | 0.00079999 | 0.00099336 |
 | 0.00065503 | 6.99968 | 0.00080000 | 0.00049668 |
 | 0.00065000 | 9.231e-05 | 0.00084300 | 0.0002847 |
-| 0.00064000 | 9.375e-05 | 0.00085875 | 5.32296 |
-| 0.00063500 | 0.111465 | 0.00088888 | 5.00768 |
+| 0.00064000 | 9.375e-05 | 0.00085875 | 5.33064 |
+| 0.00063500 | 0.111465 | 0.00088888 | 5 |
 
 ## Recent trades
 
@@ -165,7 +165,7 @@ curl "https://altquick.com/api/v1/klines?market=BTC_LTC&interval=1d&limit=90"
 
 Background facts were checked against each project's own sites and public sources. Nothing here is investment advice.
 
-Last updated: 2026-10-02 22:53 UTC from AltQuick's public API.
+Last updated: 2026-10-03 10:43 UTC from AltQuick's public API.
 
 ---
 
