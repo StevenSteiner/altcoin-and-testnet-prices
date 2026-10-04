@@ -14,8 +14,8 @@ Avalanche is a proof-of-stake smart-contract platform whose mainnet launched in 
 |---|---|
 | Last price | 0.00012167 BTC |
 | Best bid / ask | 0.00008003 / 0.00013664 BTC |
-| Trades, last 7 days | 10 |
-| Volume, last 7 days | 0.00012594 BTC |
+| Trades, last 7 days | 6 |
+| Volume, last 7 days | 0.00006611 BTC |
 | Last trade | 2026-09-29 18:55 UTC |
 
 ## About Avalanche
@@ -46,7 +46,7 @@ Because AVAX exists on more than one chain, check which network AltQuick's depos
 
 | | |
 |---|---|
-| Change, 30 days | +44.3% |
+| Change, 30 days | +46.2% |
 | Change, 90 days | +24.6% |
 | Highest daily close | 0.00014397 BTC |
 | Lowest daily close | 0.00002510 BTC |
@@ -57,6 +57,7 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 
 | Date (UTC) | Close (BTC) | High | Low | Volume (AVAX) |
 |---|---|---|---|---|
+| 2026-10-04 | 0.00012167 | 0.00012167 | 0.00012167 | 0 |
 | 2026-10-03 | 0.00012167 | 0.00012167 | 0.00012167 | 0 |
 | 2026-10-02 | 0.00012167 | 0.00012167 | 0.00012167 | 0 |
 | 2026-10-01 | 0.00012167 | 0.00012167 | 0.00012167 | 0 |
@@ -86,7 +87,6 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 | 2026-09-07 | 0.00008323 | 0.00008323 | 0.00008323 | 0 |
 | 2026-09-06 | 0.00008323 | 0.00008323 | 0.00008323 | 0 |
 | 2026-09-05 | 0.00008323 | 0.00008323 | 0.00008323 | 0 |
-| 2026-09-04 | 0.00008323 | 0.00008329 | 0.00008323 | 0.499973 |
 
 </details>
 
@@ -165,7 +165,7 @@ curl "https://altquick.com/api/v1/klines?market=BTC_AVAX&interval=1d&limit=90"
 
 Background facts were checked against each project's own sites and public sources. Nothing here is investment advice.
 
-Last updated: 2026-10-03 10:43 UTC from AltQuick's public API.
+Last updated: 2026-10-04 10:43 UTC from AltQuick's public API.
 
 ---
 

@@ -26,26 +26,26 @@ Finished testing? Sell the spare coins back on the same market so the next devel
 
 | | |
 |---|---|
-| Last price | 0.00000010 BTC |
-| Best bid / ask | 0.00000007 / 0.00000010 BTC |
-| Trades, last 7 days | 58 |
-| Volume, last 7 days | 0.00014753 BTC |
-| Last trade | 2026-10-03 06:33 UTC |
+| Last price | 0.00000008 BTC |
+| Best bid / ask | 0.00000006 / 0.00000008 BTC |
+| Trades, last 7 days | 67 |
+| Volume, last 7 days | 0.00017182 BTC |
+| Last trade | 2026-10-04 06:37 UTC |
 
 ## Recent trades
 
 | Time (UTC) | Side | Price (BTC) | Amount (SBTC) |
 |---|---|---|---|
+| 2026-10-04 06:37 | buy | 0.00000008 | 1.00000000 |
+| 2026-10-04 06:37 | sell | 0.00000006 | 25.26510118 |
+| 2026-10-04 06:37 | sell | 0.00000006 | 73.66666667 |
+| 2026-10-04 06:37 | sell | 0.00000006 | 13.31794234 |
+| 2026-10-04 06:37 | sell | 0.00000007 | 18.28571429 |
+| 2026-10-03 11:21 | buy | 0.00000010 | 1.00000000 |
+| 2026-10-03 11:21 | sell | 0.00000006 | 86.68205766 |
+| 2026-10-03 11:21 | sell | 0.00000006 | 30.56532699 |
+| 2026-10-03 11:21 | sell | 0.00000007 | 16.84591439 |
 | 2026-10-03 06:33 | buy | 0.00000010 | 1.00000000 |
-| 2026-10-03 06:32 | sell | 0.00000007 | 116.15933441 |
-| 2026-10-03 06:32 | sell | 0.00000008 | 6.00000000 |
-| 2026-10-03 05:26 | buy | 0.00000010 | 26.90000000 |
-| 2026-10-03 02:31 | buy | 0.00000010 | 6.80000000 |
-| 2026-10-03 02:31 | buy | 0.00000010 | 4.70000000 |
-| 2026-10-03 02:31 | buy | 0.00000009 | 4.44444445 |
-| 2026-10-03 02:30 | buy | 0.00000008 | 2.25000001 |
-| 2026-10-02 10:04 | buy | 0.00000009 | 1.00000000 |
-| 2026-10-02 10:04 | sell | 0.00000007 | 152.58115517 |
 
 ## Get this data yourself
 
@@ -57,7 +57,7 @@ curl "https://altquick.com/api/v1/klines?market=BTC_SBTC&interval=1d&limit=90"
 
 [See every AltQuick market](../)
 
-Last updated: 2026-10-03 10:43 UTC from AltQuick's public API.
+Last updated: 2026-10-04 10:43 UTC from AltQuick's public API.
 
 ---
 

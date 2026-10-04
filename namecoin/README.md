@@ -45,7 +45,7 @@ The project is still active, with recent work on TLS certificate validation for 
 
 | | |
 |---|---|
-| Change, 30 days | +2.5% |
+| Change, 30 days | +0.0% |
 | Change, 90 days | +11.0% |
 | Highest daily close | 0.00001499 BTC |
 | Lowest daily close | 0.00001201 BTC |
@@ -56,6 +56,7 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 
 | Date (UTC) | Close (BTC) | High | Low | Volume (NMC) |
 |---|---|---|---|---|
+| 2026-10-04 | 0.00001333 | 0.00001333 | 0.00001333 | 0 |
 | 2026-10-03 | 0.00001333 | 0.00001333 | 0.00001333 | 0 |
 | 2026-10-02 | 0.00001333 | 0.00001333 | 0.00001333 | 0 |
 | 2026-10-01 | 0.00001333 | 0.00001333 | 0.00001333 | 0 |
@@ -85,7 +86,6 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 | 2026-09-07 | 0.00001333 | 0.00001333 | 0.00001333 | 0 |
 | 2026-09-06 | 0.00001333 | 0.00001333 | 0.00001333 | 0 |
 | 2026-09-05 | 0.00001333 | 0.00001333 | 0.00001333 | 0 |
-| 2026-09-04 | 0.00001333 | 0.00001333 | 0.00001333 | 2.49995 |
 
 </details>
 
@@ -164,7 +164,7 @@ curl "https://altquick.com/api/v1/klines?market=BTC_NMC&interval=1d&limit=90"
 
 Background facts were checked against each project's own sites and public sources. Nothing here is investment advice.
 
-Last updated: 2026-10-03 10:43 UTC from AltQuick's public API.
+Last updated: 2026-10-04 10:43 UTC from AltQuick's public API.
 
 ---
 

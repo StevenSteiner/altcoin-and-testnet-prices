@@ -46,8 +46,8 @@ To earn CURE rather than buy it, install Folding@home and fold for Team Curecoin
 
 | | |
 |---|---|
-| Change, 30 days | -80.0% |
-| Change, 90 days | -14.3% |
+| Change, 30 days | -40.0% |
+| Change, 90 days | -40.0% |
 | Highest daily close | 0.00000087 BTC |
 | Lowest daily close | 0.00000005 BTC |
 
@@ -57,6 +57,7 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 
 | Date (UTC) | Close (BTC) | High | Low | Volume (CURE) |
 |---|---|---|---|---|
+| 2026-10-04 | 0.00000006 | 0.00000006 | 0.00000006 | 0 |
 | 2026-10-03 | 0.00000006 | 0.00000006 | 0.00000006 | 98 |
 | 2026-10-02 | 0.00000005 | 0.00000005 | 0.00000005 | 0 |
 | 2026-10-01 | 0.00000005 | 0.00000010 | 0.00000005 | 1168 |
@@ -86,7 +87,6 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 | 2026-09-07 | 0.00000006 | 0.00000011 | 0.00000006 | 1082 |
 | 2026-09-06 | 0.00000010 | 0.00000010 | 0.00000010 | 0 |
 | 2026-09-05 | 0.00000010 | 0.00000010 | 0.00000010 | 0 |
-| 2026-09-04 | 0.00000010 | 0.00000029 | 0.00000010 | 98 |
 
 </details>
 
@@ -165,7 +165,7 @@ curl "https://altquick.com/api/v1/klines?market=BTC_CURE&interval=1d&limit=90"
 
 Background facts were checked against each project's own sites and public sources. Nothing here is investment advice.
 
-Last updated: 2026-10-03 10:43 UTC from AltQuick's public API.
+Last updated: 2026-10-04 10:43 UTC from AltQuick's public API.
 
 ---
 
