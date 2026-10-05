@@ -14,8 +14,8 @@ Monero is a CryptoNote-based privacy coin launched in April 2014 that hides send
 |---|---|
 | Last price | 0.00640000 BTC |
 | Best bid / ask | 0.00650000 / 0.00690000 BTC |
-| Trades, last 7 days | 9 |
-| Volume, last 7 days | 0.00235824 BTC |
+| Trades, last 7 days | 5 |
+| Volume, last 7 days | 0.00141490 BTC |
 | Last trade | 2026-09-29 18:56 UTC |
 
 ## About Monero
@@ -46,7 +46,7 @@ Because of its privacy, Monero has been delisted by many large exchanges. AltQui
 
 | | |
 |---|---|
-| Change, 30 days | +8.0% |
+| Change, 30 days | +2.3% |
 | Change, 90 days | +30.3% |
 | Highest daily close | 0.00718750 BTC |
 | Lowest daily close | 0.00491250 BTC |
@@ -57,6 +57,7 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 
 | Date (UTC) | Close (BTC) | High | Low | Volume (XMR) |
 |---|---|---|---|---|
+| 2026-10-05 | 0.00640000 | 0.00640000 | 0.00640000 | 0 |
 | 2026-10-04 | 0.00640000 | 0.00640000 | 0.00640000 | 0 |
 | 2026-10-03 | 0.00640000 | 0.00640000 | 0.00640000 | 0 |
 | 2026-10-02 | 0.00640000 | 0.00640000 | 0.00640000 | 0 |
@@ -86,7 +87,6 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 | 2026-09-08 | 0.00573818 | 0.00595678 | 0.00572942 | 0.0009588 |
 | 2026-09-07 | 0.00590524 | 0.00625000 | 0.00590524 | 0.0002662 |
 | 2026-09-06 | 0.00610000 | 0.00628553 | 0.00597160 | 0.00168 |
-| 2026-09-05 | 0.00625423 | 0.00625423 | 0.00590227 | 0.00100957 |
 
 </details>
 
@@ -97,7 +97,7 @@ Top 5 bids (buy orders) and asks (sell orders).
 | Bid price (BTC) | Bid amount (XMR) | Ask price (BTC) | Ask amount (XMR) |
 |---|---|---|---|
 | 0.00650000 | 7.7e-06 | 0.00690000 | 2.84968 |
-| 0.00640000 | 0.793583 | 0.00707321 | 0.102434 |
+| 0.00640000 | 0.793583 | 0.00700166 | 0.102434 |
 | 0.00630000 | 7.94e-06 | 0.00715000 | 0.00697623 |
 | 0.00620000 | 9.68e-06 | 0.00718750 | 1.96492 |
 | 0.00615000 | 0.0693285 | 0.00788750 | 2.66551 |
@@ -165,7 +165,7 @@ curl "https://altquick.com/api/v1/klines?market=BTC_XMR&interval=1d&limit=90"
 
 Background facts were checked against each project's own sites and public sources. Nothing here is investment advice.
 
-Last updated: 2026-10-04 10:43 UTC from AltQuick's public API.
+Last updated: 2026-10-05 10:43 UTC from AltQuick's public API.
 
 ---
 

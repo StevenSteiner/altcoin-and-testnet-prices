@@ -15,7 +15,7 @@ Mazacoin is a 2014 SHA-256 coin created by Payu Harris for the Oglala Lakota Nat
 | Last price | 0.00000003 BTC |
 | Best bid / ask | 0.00000003 / 0.00000004 BTC |
 | Trades, last 7 days | 2 |
-| Volume, last 7 days | 0.00109080 BTC |
+| Volume, last 7 days | 0.00109082 BTC |
 | Last trade | 2026-10-01 16:36 UTC |
 
 ## About Mazacoin
@@ -57,6 +57,7 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 
 | Date (UTC) | Close (BTC) | High | Low | Volume (MAZA) |
 |---|---|---|---|---|
+| 2026-10-05 | 0.00000003 | 0.00000003 | 0.00000003 | 0 |
 | 2026-10-04 | 0.00000003 | 0.00000003 | 0.00000003 | 0 |
 | 2026-10-03 | 0.00000003 | 0.00000003 | 0.00000003 | 0 |
 | 2026-10-02 | 0.00000003 | 0.00000003 | 0.00000003 | 0 |
@@ -86,7 +87,6 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 | 2026-09-08 | 0.00000003 | 0.00000003 | 0.00000003 | 0 |
 | 2026-09-07 | 0.00000003 | 0.00000003 | 0.00000003 | 0 |
 | 2026-09-06 | 0.00000003 | 0.00000003 | 0.00000003 | 0 |
-| 2026-09-05 | 0.00000003 | 0.00000003 | 0.00000003 | 0 |
 
 </details>
 
@@ -165,7 +165,7 @@ curl "https://altquick.com/api/v1/klines?market=BTC_MAZA&interval=1d&limit=90"
 
 Background facts were checked against each project's own sites and public sources. Nothing here is investment advice.
 
-Last updated: 2026-10-04 10:43 UTC from AltQuick's public API.
+Last updated: 2026-10-05 10:43 UTC from AltQuick's public API.
 
 ---
 

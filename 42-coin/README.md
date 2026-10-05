@@ -14,8 +14,8 @@
 |---|---|
 | Last price | 0.39000000 BTC |
 | Best bid / ask | 0.35000000 / 0.41997973 BTC |
-| Trades, last 7 days | 7 |
-| Volume, last 7 days | 0.00204792 BTC |
+| Trades, last 7 days | 2 |
+| Volume, last 7 days | 0.00193310 BTC |
 | Last trade | 2026-10-03 21:41 UTC |
 
 ## About 42-coin
@@ -58,6 +58,7 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 
 | Date (UTC) | Close (BTC) | High | Low | Volume (42) |
 |---|---|---|---|---|
+| 2026-10-05 | 0.39000000 | 0.39000000 | 0.39000000 | 0 |
 | 2026-10-04 | 0.39000000 | 0.39000000 | 0.39000000 | 0 |
 | 2026-10-03 | 0.39000000 | 0.39000000 | 0.39000000 | 0.00012821 |
 | 2026-10-02 | 0.35000000 | 0.35000000 | 0.35000000 | 0 |
@@ -87,7 +88,6 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 | 2026-09-08 | 0.20000001 | 0.20000001 | 0.20000001 | 0 |
 | 2026-09-07 | 0.20000001 | 0.20000001 | 0.20000001 | 0 |
 | 2026-09-06 | 0.20000001 | 0.20000001 | 0.20000001 | 0 |
-| 2026-09-05 | 0.20000001 | 0.20000001 | 0.20000001 | 0 |
 
 </details>
 
@@ -99,7 +99,7 @@ Top 5 bids (buy orders) and asks (sell orders).
 |---|---|---|---|
 | 0.35000000 | 0.001 | 0.41997973 | 8.496e-05 |
 | 0.30000000 | 0.005 | 0.41997974 | 4.248e-05 |
-| 0.20000000 | 0.001 | 0.41997979 | 4.8e-07 |
+| 0.20000000 | 0.001 | 0.41997979 | 5.6e-07 |
 | 0.10000000 | 0.002 | 0.41997990 | 1.8e-07 |
 | 0.06000010 | 0.0006 | 0.42000000 | 0.00017 |
 
@@ -166,7 +166,7 @@ curl "https://altquick.com/api/v1/klines?market=BTC_42&interval=1d&limit=90"
 
 Background facts were checked against each project's own sites and public sources. Nothing here is investment advice.
 
-Last updated: 2026-10-04 10:43 UTC from AltQuick's public API.
+Last updated: 2026-10-05 10:43 UTC from AltQuick's public API.
 
 ---
 

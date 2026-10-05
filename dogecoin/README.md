@@ -14,8 +14,8 @@ Dogecoin is the Shiba Inu meme coin launched in December 2013, a Scrypt chain me
 |---|---|
 | Last price | 0.00000106 BTC |
 | Best bid / ask | 0.00000110 / 0.00000118 BTC |
-| Trades, last 7 days | 49 |
-| Volume, last 7 days | 0.00105610 BTC |
+| Trades, last 7 days | 4 |
+| Volume, last 7 days | 0.00000845 BTC |
 | Last trade | 2026-10-01 05:56 UTC |
 
 ## About Dogecoin
@@ -46,8 +46,8 @@ Dogecoin addresses usually start with D; withdraw only to a DOGE wallet.
 
 | | |
 |---|---|
-| Change, 30 days | -0.9% |
-| Change, 90 days | -11.7% |
+| Change, 30 days | +1.0% |
+| Change, 90 days | -26.9% |
 | Highest daily close | 0.00000145 BTC |
 | Lowest daily close | 0.00000105 BTC |
 
@@ -57,6 +57,7 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 
 | Date (UTC) | Close (BTC) | High | Low | Volume (DOGE) |
 |---|---|---|---|---|
+| 2026-10-05 | 0.00000106 | 0.00000106 | 0.00000106 | 0 |
 | 2026-10-04 | 0.00000106 | 0.00000106 | 0.00000106 | 0 |
 | 2026-10-03 | 0.00000106 | 0.00000106 | 0.00000106 | 0 |
 | 2026-10-02 | 0.00000106 | 0.00000106 | 0.00000106 | 0 |
@@ -86,7 +87,6 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 | 2026-09-08 | 0.00000107 | 0.00000131 | 0.00000107 | 4.71855 |
 | 2026-09-07 | 0.00000105 | 0.00000105 | 0.00000105 | 0.69 |
 | 2026-09-06 | 0.00000105 | 0.00000105 | 0.00000105 | 1.05 |
-| 2026-09-05 | 0.00000105 | 0.00000107 | 0.00000105 | 3447.91 |
 
 </details>
 
@@ -165,7 +165,7 @@ curl "https://altquick.com/api/v1/klines?market=BTC_DOGE&interval=1d&limit=90"
 
 Background facts were checked against each project's own sites and public sources. Nothing here is investment advice.
 
-Last updated: 2026-10-04 10:43 UTC from AltQuick's public API.
+Last updated: 2026-10-05 10:43 UTC from AltQuick's public API.
 
 ---
 

@@ -15,7 +15,7 @@ Peercoin, launched in August 2012, was the first cryptocurrency to use proof of 
 | Last price | 0.00010000 BTC |
 | Best bid / ask | 0.00000382 / 0.00010000 BTC |
 | Trades, last 7 days | 6 |
-| Volume, last 7 days | 0.00029010 BTC |
+| Volume, last 7 days | 0.00029011 BTC |
 | Last trade | 2026-09-28 16:53 UTC |
 
 ## About Peercoin
@@ -58,6 +58,7 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 
 | Date (UTC) | Close (BTC) | High | Low | Volume (PPC) |
 |---|---|---|---|---|
+| 2026-10-05 | 0.00010000 | 0.00010000 | 0.00010000 | 0 |
 | 2026-10-04 | 0.00010000 | 0.00010000 | 0.00010000 | 0 |
 | 2026-10-03 | 0.00010000 | 0.00010000 | 0.00010000 | 0 |
 | 2026-10-02 | 0.00010000 | 0.00010000 | 0.00010000 | 0 |
@@ -87,7 +88,6 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 | 2026-09-08 | 0.00000366 | 0.00000366 | 0.00000366 | 0 |
 | 2026-09-07 | 0.00000366 | 0.00000366 | 0.00000366 | 0 |
 | 2026-09-06 | 0.00000366 | 0.00000366 | 0.00000366 | 0 |
-| 2026-09-05 | 0.00000366 | 0.00000366 | 0.00000366 | 0 |
 
 </details>
 
@@ -98,10 +98,10 @@ Top 5 bids (buy orders) and asks (sell orders).
 | Bid price (BTC) | Bid amount (PPC) | Ask price (BTC) | Ask amount (PPC) |
 |---|---|---|---|
 | 0.00000382 | 0.0209424 | 0.00010000 | 12.1102 |
-| 0.00000380 | 491.068 | 0.00060000 | 0.001 |
-| 0.00000378 | 1000 | 0.00100000 | 45 |
-| 0.00000377 | 15 | 0.00400000 | 10 |
-| 0.00000366 | 26.6518 | 0.00445670 | 0.081 |
+| 0.00000378 | 1000 | 0.00060000 | 0.001 |
+| 0.00000377 | 15 | 0.00100000 | 45 |
+| 0.00000366 | 26.6518 | 0.00400000 | 10 |
+| 0.00000363 | 986.226 | 0.00445670 | 0.081 |
 
 ## Recent trades
 
@@ -166,7 +166,7 @@ curl "https://altquick.com/api/v1/klines?market=BTC_PPC&interval=1d&limit=90"
 
 Background facts were checked against each project's own sites and public sources. Nothing here is investment advice.
 
-Last updated: 2026-10-04 10:43 UTC from AltQuick's public API.
+Last updated: 2026-10-05 10:43 UTC from AltQuick's public API.
 
 ---
 

@@ -15,7 +15,7 @@ Solana is a high-throughput proof-of-stake smart-contract chain that orders tran
 | Last price | 0.00145000 BTC |
 | Best bid / ask | 0.00140000 / 0.00145000 BTC |
 | Trades, last 7 days | 2 |
-| Volume, last 7 days | 0.00007525 BTC |
+| Volume, last 7 days | 0.00007526 BTC |
 | Last trade | 2026-10-01 16:21 UTC |
 
 ## About Solana
@@ -46,7 +46,7 @@ SOL pays transaction fees and is staked to validators. AltQuick quotes it agains
 
 | | |
 |---|---|
-| Change, 30 days | +16.0% |
+| Change, 30 days | +3.6% |
 | Change, 90 days | +2.9% |
 | Highest daily close | 0.00174999 BTC |
 | Lowest daily close | 0.00112000 BTC |
@@ -57,6 +57,7 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 
 | Date (UTC) | Close (BTC) | High | Low | Volume (SOL) |
 |---|---|---|---|---|
+| 2026-10-05 | 0.00145000 | 0.00145000 | 0.00145000 | 0 |
 | 2026-10-04 | 0.00145000 | 0.00145000 | 0.00145000 | 0 |
 | 2026-10-03 | 0.00145000 | 0.00145000 | 0.00145000 | 0 |
 | 2026-10-02 | 0.00145000 | 0.00145000 | 0.00145000 | 0 |
@@ -86,7 +87,6 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 | 2026-09-08 | 0.00139999 | 0.00139999 | 0.00139999 | 0 |
 | 2026-09-07 | 0.00139999 | 0.00139999 | 0.00139999 | 0.0638076 |
 | 2026-09-06 | 0.00139999 | 0.00139999 | 0.00139999 | 0 |
-| 2026-09-05 | 0.00139999 | 0.00139999 | 0.00139999 | 0.00084287 |
 
 </details>
 
@@ -165,7 +165,7 @@ curl "https://altquick.com/api/v1/klines?market=BTC_SOL&interval=1d&limit=90"
 
 Background facts were checked against each project's own sites and public sources. Nothing here is investment advice.
 
-Last updated: 2026-10-04 10:43 UTC from AltQuick's public API.
+Last updated: 2026-10-05 10:43 UTC from AltQuick's public API.
 
 ---
 

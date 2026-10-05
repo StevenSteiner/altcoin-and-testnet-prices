@@ -13,7 +13,7 @@ Dash is a payments-focused cryptocurrency with a masternode network that provide
 | | |
 |---|---|
 | Last price | 0.00066190 BTC |
-| Best bid / ask | 0.00050000 / 0.00076398 BTC |
+| Best bid / ask | 0.00050000 / 0.00076232 BTC |
 | Trades, last 7 days | 1 |
 | Volume, last 7 days | 0.00002032 BTC |
 | Last trade | 2026-09-29 18:56 UTC |
@@ -47,7 +47,7 @@ Dash has been delisted by some exchanges because of its optional mixing. AltQuic
 
 | | |
 |---|---|
-| Change, 30 days | -5.3% |
+| Change, 30 days | -24.7% |
 | Change, 90 days | +20.1% |
 | Highest daily close | 0.00087875 BTC |
 | Lowest daily close | 0.00043764 BTC |
@@ -58,6 +58,7 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 
 | Date (UTC) | Close (BTC) | High | Low | Volume (DASH) |
 |---|---|---|---|---|
+| 2026-10-05 | 0.00066190 | 0.00066190 | 0.00066190 | 0 |
 | 2026-10-04 | 0.00066190 | 0.00066190 | 0.00066190 | 0 |
 | 2026-10-03 | 0.00066190 | 0.00066190 | 0.00066190 | 0 |
 | 2026-10-02 | 0.00066190 | 0.00066190 | 0.00066190 | 0 |
@@ -87,7 +88,6 @@ Daily candles from AltQuick's klines API, UTC days. On days without trades the p
 | 2026-09-08 | 0.00076685 | 0.00076685 | 0.00076685 | 0 |
 | 2026-09-07 | 0.00076685 | 0.00076685 | 0.00076685 | 0 |
 | 2026-09-06 | 0.00076685 | 0.00087000 | 0.00076685 | 2.11534 |
-| 2026-09-05 | 0.00087875 | 0.00087875 | 0.00069875 | 84.6256 |
 
 </details>
 
@@ -97,7 +97,7 @@ Top 5 bids (buy orders) and asks (sell orders).
 
 | Bid price (BTC) | Bid amount (DASH) | Ask price (BTC) | Ask amount (DASH) |
 |---|---|---|---|
-| 0.00050000 | 0.12496 | 0.00076398 | 0.0303967 |
+| 0.00050000 | 0.12496 | 0.00076232 | 0.0303967 |
 | 0.00043125 | 30.4402 | 0.00084000 | 15 |
 | 0.00011900 | 0.00655463 | 0.00087875 | 43.7816 |
 | 0.00010110 | 0.0395648 | 0.00400000 | 0.001 |
@@ -166,7 +166,7 @@ curl "https://altquick.com/api/v1/klines?market=BTC_DASH&interval=1d&limit=90"
 
 Background facts were checked against each project's own sites and public sources. Nothing here is investment advice.
 
-Last updated: 2026-10-04 10:43 UTC from AltQuick's public API.
+Last updated: 2026-10-05 10:43 UTC from AltQuick's public API.
 
 ---
 
